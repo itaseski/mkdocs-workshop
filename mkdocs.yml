@@ -1,0 +1,17 @@
+site_name: Работилничка документација
+
+theme:
+  name: material
+  palette:
+    primary: green
+
+  # Language
+  language: mk
+
+plugins:
+  - search
+
+
+extra_css:
+  - stylesheets/extra.css
+
