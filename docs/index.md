@@ -1,7 +1,7 @@
 # Welcome to MkDocs Workshop
 
 
-![EuroPythonLogo](/images/euro-python-logo.png)
+![EuroPythonLogo](images/euro-python-logo.png)
 
 ## Commands
 
