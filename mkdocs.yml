@@ -1,5 +1,7 @@
 site_name: Работилничка документација
 
+site_url: https://itaseski.github.io/mkdocs-workshop/
+
 theme:
   name: material
   palette:
