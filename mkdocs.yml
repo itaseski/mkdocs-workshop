@@ -12,6 +12,8 @@ theme:
 
   # Logo
   logo: assets/logo.png
+  # Favicon
+  favicon: images/favicon.png
 
 plugins:
   - search
