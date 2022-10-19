@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: PTC Arbortext IsoDraw 7.3 M070 -->
+<svg width="100%" height="100%" viewBox="0 0 75.006 61.011"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+ fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-linecap="round" fill="none" xml:space="preserve">
+ <g id="A4_x0020_full_x0020_frame">
+  <polygon id="AUTOID_25844" stroke="#FFFFFF" stroke-width="0.006" stroke-linejoin="round" points="0.003 0.003 0.003 61.008 75.003 61.008 75.003 0.003 0.003 0.003"/>
+ </g>
+ <g id="Colour">
+ </g>
+ <g id="Standard_x0020_layer">
+  <path stroke="#808080" stroke-width="0.5" stroke-linejoin="round" stroke-dasharray="0.01" id="AUTOID_25950" d="M63.238 29.704C63.243 45.573 50.384 58.438 34.523 58.439C18.664 58.439 5.807 45.573 5.807 29.704C5.802 13.832 18.658 0.967 34.521 0.965C50.381 0.965 63.237 13.83 63.238 29.704"/>
+  <path stroke-width="0.3" stroke-linejoin="round" id="AUTOID_26107" d="M66.088 31.065C66.09 35.256 65.191 39.237 63.576 42.826"/>
+  <path stroke-width="0.3" stroke-linejoin="round" d="M63.171 43.686C58.508 53.189 48.74 59.728 37.445 59.729C21.626 59.729 8.801 46.896 8.8 31.065C8.797 15.234 21.618 2.402 37.442 2.399C53.264 2.399 66.087 15.233 66.088 31.065"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M8.788 31.804L10.651 32.003L10.673 32.503L8.846 33.027"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M9.662 24.007L11.4 24.702L11.287 25.19L9.385 25.199"/>
+  <line stroke-width="0.13" stroke-linejoin="round" stroke-dasharray="5 1 1 1" x1="37.468" y1="0.614" x2="37.468" y2="59.828"/>
+  <line stroke-width="0.13" stroke-linejoin="round" x1="37.468" y1="59.828" x2="37.468" y2="60.828"/>
+  <line stroke-width="0.13" stroke-linejoin="round" stroke-dasharray="5 1 1 1" x1="4.25" y1="31.094" x2="70.268" y2="31.12"/>
+  <line stroke-width="0.13" stroke-linejoin="round" x1="70.268" y1="31.12" x2="71.268" y2="31.12"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M31.086 3.112L31.259 4.979L30.772 5.099L29.899 3.411"/>
+  <path stroke-width="0.13" stroke-linejoin="round" id="AUTOID_26100" d="M54.965 31.065C54.966 33.554 54.448 35.923 53.512 38.067"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M53.11 38.926C50.231 44.661 44.296 48.597 37.445 48.598C27.768 48.598 19.923 40.747 19.923 31.065C19.92 21.382 27.765 13.532 37.444 13.531C47.121 13.531 54.963 21.381 54.965 31.065"/>
+  <path stroke-width="0.13" stroke-linejoin="round" id="AUTOID_26104" d="M43.165 31.065C43.165 31.778 43.037 32.463 42.804 33.094"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M42.404 33.951C41.414 35.682 39.561 36.848 37.441 36.848C34.277 36.847 31.714 34.259 31.713 31.065C31.713 27.87 34.277 25.282 37.439 25.28C40.601 25.28 43.165 27.87 43.165 31.065"/>
+  <path stroke-width="0.13" stroke-linejoin="round" id="AUTOID_26095" d="M48.896 31.065C48.898 32.648 48.576 34.155 47.997 35.527"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M47.594 36.381C45.679 40.036 41.85 42.53 37.441 42.53C31.114 42.53 25.984 37.396 25.984 31.065C25.981 24.733 31.111 19.6 37.439 19.6C43.768 19.6 48.896 24.733 48.896 31.065"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M37.972 2.405L37.692 4.256L37.192 4.256L36.749 2.407"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M45.725 3.621L44.953 5.328L44.472 5.192L44.545 3.293"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M52.856 6.894L51.649 8.329L51.223 8.067L51.81 6.259"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M58.832 11.98L57.283 13.032L56.942 12.664L57.997 11.083"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M63.206 18.493L61.429 19.086L61.201 18.641L62.646 17.405"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M65.65 25.949L63.777 26.039L63.679 25.548L65.405 24.751"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M65.98 33.789L64.155 33.368L64.192 32.869L66.069 32.569"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M64.171 41.424L62.529 40.524L62.701 40.054L64.59 40.274"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M60.36 48.283L59.024 46.972L59.317 46.567L61.075 47.289"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M54.832 53.853L53.902 52.228L54.293 51.917L55.789 53.09"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M48.003 57.715L47.546 55.898L48.009 55.704L49.13 57.24"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M40.381 59.579L40.435 57.707L40.932 57.646L41.594 59.427"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M32.539 59.307L33.098 57.518L33.593 57.595L33.749 59.49"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M25.064 56.918L26.088 55.35L26.544 55.557L26.179 57.423"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M18.518 52.593L19.928 51.36L20.31 51.683L19.454 53.381"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M13.388 46.655L15.082 45.85L15.362 46.265L14.076 47.667"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M10.063 39.548L11.91 39.232L12.067 39.707L10.451 40.709"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M12.615 16.737L14.102 17.879L13.859 18.318L12.026 17.812"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M17.431 10.541L18.551 12.044L18.199 12.4L16.573 11.416"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M23.745 5.884L24.417 7.634L23.981 7.881L22.682 6.493"/>
+  <g>
+   <path stroke="#808080" stroke-width="0.13" stroke-linejoin="round" stroke-dasharray="0.01 0.26" d="M40.228 29.701C40.228 28.126 39.588 26.701 38.557 25.667C36.329 23.44 32.716 23.44 30.489 25.667C29.375 26.782 28.818 28.242 28.818 29.701C28.818 31.277 29.457 32.704 30.489 33.735C32.716 35.963 36.329 35.963 38.557 33.735C39.67 32.621 40.228 31.161 40.228 29.701"/>
+  </g>
+  <line stroke="#808080" stroke-width="0.13" stroke-linejoin="round" stroke-dasharray="5 1 1 1" x1="34.523" y1="0.309" x2="34.523" y2="59.795"/>
+  <line stroke="#808080" stroke-width="0.13" stroke-linejoin="round" x1="34.523" y1="59.795" x2="34.523" y2="60.795"/>
+  <line stroke="#808080" stroke-width="0.13" stroke-linejoin="round" stroke-dasharray="5 1 1 1" x1="1.577" y1="29.701" x2="63.768" y2="29.701"/>
+  <line stroke="#808080" stroke-width="0.13" stroke-linejoin="round" x1="63.768" y1="29.701" x2="64.769" y2="29.701"/>
+  <line stroke-width="0.3" stroke-linejoin="round" x1="33.237" y1="29.111" x2="66.066" y2="44.493"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M26.878 29.121L27.742 28.428L28.768 28.835"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M29.606 24.347L30.146 23.373L31.254 23.347L31.823 24.297"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M35.216 21.242L36.238 20.798L37.134 21.451L37.006 22.55L35.984 22.993L35.088 22.341L35.216 21.242z"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M41.557 22.19L42.64 22.458L42.954 23.521L42.185 24.317L41.101 24.047L40.789 22.984L41.557 22.19z"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M46.015 26.798L46.712 27.669L46.314 28.704L45.219 28.867L44.526 27.995L44.923 26.96L46.015 26.798z"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M46.753 33.167L46.776 34.283"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M44.067 38.133L43.482 39.082L42.375 39.057L41.85 38.082L42.438 37.134L43.545 37.158L44.067 38.133z"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M39.625 40.625L38.648 41.161L37.698 40.591L37.725 39.484L38.704 38.951L39.655 39.521L39.625 40.625z"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M33.546 40.442L32.439 40.308L31.998 39.292L32.664 38.408L33.771 38.543L34.213 39.561L33.546 40.442z"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M28.667 36.588L27.855 35.826L28.1 34.744L29.161 34.426L29.972 35.191L29.727 36.271L28.667 36.588z"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M44.841 33.21L45.786 32.631L46.753 33.167"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M30.172 25.297L29.606 24.347"/>
+ </g>
+ <g id="Blow-up">
+ </g>
+ <g id="Symbols">
+ </g>
+ <g id="Text&amp;Poses">
+ </g>
+ <g id="Measures">
+ </g>
+ <g id="Picture_x0020_#">
+  <text transform="matrix(0 -1 1 0 73.817 59.994)" stroke="none" fill="#000000" font-family="'Arial'" font-size="2.117">411 479</text>
+ </g>
+</svg>

@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: PTC Arbortext IsoDraw 7.3 -->
+<svg width="100%" height="100%" viewBox="0 0 150.006 235.331"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+ fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-linecap="round" fill="none" xml:space="preserve">
+ <g id="A4_x0020_full_x0020_frame">
+  <g>
+   <path stroke="#FFFFFF" stroke-width="0.006" d="M150.002 234.993L150.002 0.003L0.003 0.003L0.003 234.993L150.002 234.993z"/>
+  </g>
+ </g>
+ <g id="Standard_x0020_layer">
+  <g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.443 155.878L19.42 153.673"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.42 153.673L47.295 153.673"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M9.993 157.283L9.993 146.318"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.443 147.32L19.42 149.526"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.42 149.526L47.167 149.526"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M35.557 157.445L35.557 146.079"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M42.31 157.378L42.31 146.521"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M33.381 158.574L33.381 157.31 37.802 157.31 37.802 158.574 33.381 158.574z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M33.454 146.328L33.454 145.063 37.875 145.063 37.875 146.328 33.454 146.328z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M40.171 158.525L40.171 157.26 44.594 157.26 44.594 158.525 40.171 158.525z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M40.244 146.278L40.244 145.015 44.667 145.015 44.667 146.278 40.244 146.278z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M8.074 159.143L7.727 157.927L11.977 156.71L12.326 157.924L8.074 159.143z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M8.039 146.872L7.692 145.658L11.942 144.439L12.289 145.653L8.039 146.872z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M28.539 157.176L28.539 146.211"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M26.62 159.036L26.271 157.822L30.522 156.603L30.87 157.818L26.62 159.036z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M26.585 146.766L26.236 145.552L30.486 144.334L30.835 145.548L26.585 146.766z"/>
+   </g>
+   <g>
+    <g>
+     <text x="19.843" y="163.14" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x4/4</text>
+    </g>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="19.995" y="19.439" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">4x2</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M5.017 13.711L19.995 11.506"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.995 11.506L46.472 11.506"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M10.567 15.117L10.567 4.15"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M5.017 5.153L19.995 7.36"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.995 7.36L46.472 7.36"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M40.389 15.048L40.389 4.192"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M38.25 16.196L38.25 14.932 42.671 14.932 42.671 16.196 38.25 16.196z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M38.322 3.95L38.322 2.686 42.743 2.686 42.743 3.95 38.322 3.95z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M8.65 16.975L8.301 15.76L12.551 14.541L12.9 15.756L8.65 16.975z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M8.614 4.705L8.266 3.492L12.516 2.273L12.865 3.488L8.614 4.705z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="69.692" y="19.907" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">4x4</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.716 13.903L69.692 11.695"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.692 11.696L96.171 11.696"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M60.265 15.307L60.265 4.341"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.716 5.344L69.692 7.551"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.692 7.551L96.171 7.551"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M90.087 15.24L90.087 4.384"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M87.947 16.387L87.947 15.122 92.368 15.122 92.368 16.387 87.947 16.387z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M88.019 4.141L88.019 2.878 92.441 2.878 92.441 4.141 88.019 4.141z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M58.347 17.167L57.999 15.952 62.25 14.734 62.597 15.948 58.347 17.167z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M58.31 4.897L57.963 3.682 62.213 2.463 62.561 3.677 58.31 4.897z"/>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="70.362" y="186.186" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x6/4</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.811 179.633L69.789 177.425"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.789 177.425L96.266 177.425"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M60.36 181.037L60.362 170.07"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.811 171.074L69.789 173.28"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.789 173.28L96.266 173.28"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M90.183 180.968L90.183 170.112"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M88.043 182.116L88.043 180.852 92.465 180.852 92.465 182.116 88.043 182.116z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M88.115 169.871L88.115 168.606 92.537 168.606 92.537 169.871 88.115 169.871z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M58.444 182.895L58.094 181.681 62.345 180.462 62.694 181.677 58.444 182.895z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M58.408 170.627L58.06 169.412 62.31 168.193 62.658 169.407 58.408 170.627z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M84.003 180.872L84.003 170.014"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M81.862 182.019L81.862 180.754 86.286 180.754 86.286 182.019 81.862 182.019z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M81.936 169.771L81.936 168.508 86.358 168.508 86.358 169.771 81.936 169.771z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M78.343 180.276L78.343 169.311"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M76.427 182.135L76.078 180.92L80.328 179.701L80.677 180.917L76.427 182.135z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M76.391 169.866L76.043 168.651L80.293 167.432L80.641 168.647L76.391 169.866z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="120.009" y="43.689" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">6x6</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M105.356 37.703L120.334 35.496"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M120.334 35.496L146.812 35.496"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M110.906 39.107L110.906 28.141"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M105.356 29.144L120.334 31.35"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M120.334 31.35L146.812 31.35"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M133.974 39.107L133.974 27.74"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M140.728 39.039L140.728 28.184"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M131.796 40.234L131.796 38.972 136.218 38.972 136.218 40.234 131.796 40.234z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M131.87 27.989L131.87 26.725 136.293 26.725 136.293 27.989 131.87 27.989z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M138.588 40.185L138.588 38.923 143.009 38.923 143.009 40.185 138.588 40.185z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M138.661 27.94L138.661 26.676 143.082 26.676 143.082 27.94 138.661 27.94z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M108.987 40.966L108.64 39.752 112.891 38.533 113.239 39.747 108.987 40.966z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M108.953 28.696L108.603 27.483 112.855 26.263 113.203 27.478 108.953 28.696z"/>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="19.561" y="43.743" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">6x2</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.623 37.661L19.599 35.454"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.599 35.454L46.078 35.454"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M10.172 39.066L10.172 28.1"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.623 29.103L19.599 31.309"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.599 31.309L46.078 31.309"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M33.24 39.066L33.24 27.699"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M39.993 38.999L39.993 28.143"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M31.062 40.194L31.062 38.929 35.484 38.929 35.484 40.194 31.062 40.194z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M31.135 27.948L31.135 26.684 35.557 26.684 35.557 27.948 31.135 27.948z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M37.853 40.146L37.853 38.881L42.276 38.881L42.276 40.146L37.853 40.146z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M37.926 27.899L37.926 26.635L42.348 26.635L42.348 27.899L37.926 27.899z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M8.253 40.924L7.905 39.71L12.156 38.491L12.503 39.707L8.253 40.924z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M8.217 28.655L7.868 27.44L12.119 26.222L12.468 27.437L8.217 28.655z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="120.009" y="67.843" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">6x2/4</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M134.675 62.676L134.675 51.71"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M132.758 64.536L132.409 63.32L136.659 62.101L137.008 63.317L132.758 64.536z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M132.722 52.267L132.373 51.051L136.625 49.832L136.973 51.048L132.722 52.267z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M105.118 61.411L120.096 59.204"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M120.096 59.204L146.574 59.204"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M110.668 62.814L110.668 51.85"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M105.118 52.851L120.096 55.058"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M120.096 55.058L146.574 55.058"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M140.49 62.749L140.49 51.892"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M138.35 63.895L138.35 62.631 142.771 62.631 142.771 63.895 138.35 63.895z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M138.424 51.649L138.424 50.384 142.844 50.384 142.844 51.649 138.424 51.649z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M108.75 64.674L108.403 63.46L112.653 62.241L113.001 63.456L108.75 64.674z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M108.715 52.405L108.367 51.191L112.617 49.972L112.965 51.186L108.715 52.405z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="70.362" y="43.744" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">6x4</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.99 37.661L69.965 35.454"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.965 35.454L96.444 35.454"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M60.539 39.064L60.539 28.1"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.99 29.103L69.965 31.309"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.965 31.309L96.444 31.309"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M83.606 39.064L83.606 27.699"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M90.359 38.999L90.359 28.141"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M81.43 40.192L81.43 38.929 85.852 38.929 85.852 40.192 81.43 40.192z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M81.503 27.946L81.503 26.684 85.924 26.684 85.924 27.946 81.503 27.946z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M88.221 40.145L88.221 38.881 92.643 38.881 92.643 40.145 88.221 40.145z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M88.293 27.899L88.293 26.635 92.715 26.635 92.715 27.899 88.293 27.899z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M58.621 40.924L58.271 39.71L62.524 38.491L62.871 39.706L58.621 40.924z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M58.585 28.655L58.237 27.44L62.487 26.222L62.837 27.437L58.585 28.655z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="70.362" y="91.849" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">6x2*4</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.725 85.224L69.701 83.018"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.701 83.018L96.18 83.018"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M60.274 86.629L60.274 75.662"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.725 76.665L69.701 78.871"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.701 78.871L96.18 78.871"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M83.341 86.629L83.341 75.262"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M81.165 87.756L81.165 86.492 85.587 86.492 85.587 87.756 81.165 87.756z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M81.237 75.51L81.237 74.246 85.659 74.246 85.659 75.51 81.237 75.51z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M58.356 88.487L58.008 87.272L62.259 86.054L62.606 87.269L58.356 88.487z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M58.32 76.218L57.972 75.004L62.222 73.784L62.572 74.998L58.32 76.218z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M89.927 86.897L89.927 75.93"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M91.846 88.756L92.194 87.542L87.944 86.322L87.596 87.537L91.846 88.756z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M91.882 76.486L92.23 75.272L87.98 74.052L87.632 75.266L91.882 76.486z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="120.009" y="91.588" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x2*6</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M105.15 85.203L120.126 82.998"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M120.126 82.998L146.604 82.998"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M110.698 86.608L110.698 75.643"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M105.15 76.646L120.126 78.852"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M120.126 78.852L146.604 78.852"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M133.766 86.608L133.766 75.242"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M131.588 87.736L131.588 86.472 136.012 86.472 136.012 87.736 131.588 87.736z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M131.662 75.49L131.662 74.227 136.085 74.227 136.085 75.49 131.662 75.49z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M108.781 88.468L108.432 87.253L112.683 86.034L113.031 87.248L108.781 88.468z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M108.745 76.197L108.397 74.983L112.647 73.765L112.995 74.978L108.745 76.197z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M116.37 86.441L116.37 75.475"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M114.451 88.301L114.103 87.087L118.353 85.867L118.703 87.081L114.451 88.301z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M114.415 76.031L114.067 74.816L118.319 73.599L118.667 74.813L114.415 76.031z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M140.706 86.962L140.706 75.995"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M142.626 88.82L142.973 87.608L138.723 86.388L138.375 87.602L142.626 88.82z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M142.662 76.552L143.009 75.337L138.759 74.118L138.411 75.332L142.662 76.552z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="120.07" y="138.525" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">6x4*4</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M105.243 132.127L120.221 129.92"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M120.221 129.92L146.699 129.92"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M110.793 133.532L110.793 122.566"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M105.243 123.569L120.221 125.775"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M120.221 125.775L146.699 125.775"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M133.861 133.532L133.861 122.165"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M131.683 134.659L131.683 133.395 136.105 133.395 136.105 134.659 131.683 134.659z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M131.757 122.414L131.757 121.15 136.18 121.15 136.18 122.414 131.757 122.414z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M108.876 135.39L108.527 134.176 112.778 132.957 113.126 134.171 108.876 135.39z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M108.84 123.121L108.49 121.906 112.742 120.688 113.09 121.902 108.84 123.121z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M140.447 133.8L140.447 122.834"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M142.366 135.659L142.713 134.444L138.462 133.225L138.115 134.439L142.366 135.659z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M142.401 123.39L142.75 122.174L138.498 120.956L138.151 122.171L142.401 123.39z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="69.489" y="162.433" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x4*6</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.723 155.919L69.7 153.712"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.7 153.712L96.179 153.712"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M60.274 157.323L60.274 146.358"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.723 147.36L69.7 149.567"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.7 149.567L96.179 149.567"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M87.501 157.323L87.501 145.956"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M85.322 158.45L85.322 157.187 89.745 157.187 89.745 158.45 85.322 158.45z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M85.396 146.205L85.396 144.942 89.819 144.942 89.819 146.205 85.396 146.205z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M58.356 159.182L58.006 157.968 62.258 156.75 62.606 157.963 58.356 159.182z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M58.32 146.913L57.97 145.699 62.222 144.479 62.57 145.693 58.32 146.913z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M70.387 157.003L70.387 146.038"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M68.468 158.862L68.12 157.647L72.371 156.43L72.719 157.644L68.468 158.862z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M68.433 146.592L68.084 145.378L72.335 144.159L72.685 145.375L68.433 146.592z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M94.441 157.677L94.441 146.711"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M96.361 159.537L96.707 158.323L92.456 157.104L92.109 158.318L96.361 159.537z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M96.396 147.268L96.743 146.052L92.492 144.834L92.144 146.049L96.396 147.268z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="19.19" y="68.091" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x2</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.45 61.521L19.426 59.316"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.426 59.316L45.905 59.316"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M10 62.926L10 51.96"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.45 52.963L19.426 55.17"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.426 55.17L45.905 55.17"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M33.067 62.926L33.067 51.558"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M39.82 62.859L39.82 52.003"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M30.89 64.054L30.89 62.789 35.311 62.789 35.311 64.054 30.89 64.054z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M30.963 51.807L30.963 50.545 35.384 50.545 35.384 51.807 30.963 51.807z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M37.68 64.006L37.68 62.741L42.103 62.741L42.103 64.006L37.68 64.006z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M37.755 51.759L37.755 50.496L42.176 50.496L42.176 51.759L37.755 51.759z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M8.082 64.786L7.732 63.57L11.984 62.351L12.333 63.567L8.082 64.786z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M8.045 52.515L7.697 51.301L11.948 50.082L12.297 51.296L8.045 52.515z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M15.618 62.942L15.618 51.976"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M13.701 64.802L13.352 63.588L17.603 62.368L17.951 63.582L13.701 64.802z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M13.664 52.533L13.317 51.317L17.567 50.1L17.916 51.314L13.664 52.533z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="70.362" y="68.084" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x4</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.817 61.521L69.796 59.316"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.796 59.316L96.272 59.316"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M60.368 62.926L60.368 51.96"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.817 52.963L69.796 55.168"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.796 55.168L96.272 55.168"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M83.435 62.926L83.435 51.56"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M90.188 62.859L90.188 52.003"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M81.257 64.054L81.257 62.79 85.68 62.79 85.68 64.054 81.257 64.054z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M81.331 51.807L81.331 50.545 85.753 50.545 85.753 51.807 81.331 51.807z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M88.049 64.006L88.049 62.741 92.471 62.741 92.471 64.006 88.049 64.006z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M88.121 51.759L88.121 50.496 92.543 50.496 92.543 51.759 88.121 51.759z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M58.45 64.786L58.1 63.57L62.351 62.351L62.7 63.566L58.45 64.786z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M58.412 52.515L58.064 51.301L62.316 50.082L62.664 51.296L58.412 52.515z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M65.986 62.942L65.986 51.976"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M64.069 64.802L63.719 63.588L67.971 62.368L68.319 63.582L64.069 64.802z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M64.031 52.533L63.683 51.317L67.935 50.1L68.284 51.314L64.031 52.533z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="20.242" y="138.948" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">6x2/2</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.596 132.127L19.574 129.92"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.574 129.92L46.051 129.92"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M10.147 133.532L10.147 122.566"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.596 123.569L19.574 125.775"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.574 125.775L46.051 125.775"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M33.215 133.532L33.215 122.165"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M39.968 133.465L39.968 122.608"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M31.036 134.659L31.036 133.395L35.459 133.395L35.459 134.659L31.036 134.659z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M31.109 122.414L31.109 121.15L35.531 121.15L35.531 122.414L31.109 122.414z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M37.828 134.61L37.828 133.348 42.25 133.348 42.25 134.61 37.828 134.61z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M37.901 122.364L37.901 121.102 42.323 121.102 42.323 122.364 37.901 122.364z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M8.227 135.39L7.879 134.176L12.131 132.957L12.478 134.171L8.227 135.39z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M8.192 123.12L7.844 121.906L12.095 120.688L12.442 121.902L8.192 123.12z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="69.888" y="138.681" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">6x4/4</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.981 132.072L69.959 129.865"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.959 129.865L96.436 129.865"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M60.53 133.475L60.53 122.51"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.981 123.513L69.959 125.719"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.959 125.719L96.436 125.719"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M90.352 133.408L90.352 122.552"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M88.212 134.555L88.212 133.292 92.635 133.292 92.635 134.555 88.212 134.555z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M88.284 122.308L88.284 121.045 92.707 121.045 92.707 122.308 88.284 122.308z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M58.612 135.335L58.264 134.121 62.515 132.901 62.863 134.116 58.612 135.335z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M58.576 123.064L58.228 121.85 62.479 120.632 62.828 121.846 58.576 123.064z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M84.378 133.151L84.378 122.183"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M82.459 135.009L82.111 133.794L86.362 132.575L86.71 133.79L82.459 135.009z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M82.424 122.739L82.075 121.525L86.326 120.305L86.676 121.521L82.424 122.739z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="124.772" y="186.128" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x6+2</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M105.031 179.544L120.01 177.337"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M120.01 177.337L146.487 177.337"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M110.581 180.949L110.581 169.984"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M105.031 170.986L120.01 173.193"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M120.01 173.193L146.487 173.193"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M136.835 180.949L136.835 169.582"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M143.588 180.882L143.588 170.026"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M134.657 182.076L134.657 180.813 139.08 180.813 139.08 182.076 134.657 182.076z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M134.729 169.831L134.729 168.568 139.152 168.568 139.152 169.831 134.729 169.831z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M141.449 182.027L141.449 180.764L145.871 180.764L145.871 182.027L141.449 182.027z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M141.52 169.782L141.52 168.519L145.943 168.519L145.943 169.782L141.52 169.782z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M108.664 182.808L108.314 181.593 112.566 180.375 112.914 181.59 108.664 182.808z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M108.628 170.538L108.28 169.324 112.531 168.105 112.879 169.319 108.628 170.538z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M122.733 180.966L122.733 170"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M120.816 182.824L120.468 181.61 124.718 180.391 125.066 181.606 120.816 182.824z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M120.78 170.556L120.432 169.341 124.683 168.122 125.031 169.336 120.78 170.556z"/>
+  </g>
+  <g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M103.832 108.734L118.811 106.528"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M109.384 110.138L109.384 99.173"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M103.832 100.176L118.811 102.382"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M118.811 102.382L146.557 102.382"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M134.948 110.301L134.948 98.933"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M128.461 110.296L128.461 99.441"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M132.77 111.429L132.77 110.165 137.192 110.165 137.192 111.429 132.77 111.429z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M132.842 99.183L132.842 97.918 137.264 97.918 137.264 99.183 132.842 99.183z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M126.322 111.444L126.322 110.18 130.743 110.18 130.743 111.444 126.322 111.444z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M126.394 99.197L126.394 97.933 130.817 97.933 130.817 99.197 126.394 99.197z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M107.465 111.998L107.117 110.784L111.367 109.563L111.715 110.778L107.465 111.998z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M107.43 99.728L107.081 98.513L111.331 97.295L111.68 98.51L107.43 99.728z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M141.104 98.915L141.104 109.879"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M139.186 97.055L138.837 98.269L143.088 99.487L143.437 98.274L139.186 97.055z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M139.15 109.325L138.801 110.539L143.051 111.757L143.401 110.543L139.15 109.325z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M118.811 106.528L146.594 106.528"/>
+   <g>
+    <g>
+     <text x="114.067" y="114.775" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x4*4</text>
+    </g>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="125.212" y="161.824" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x4-2</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M105.031 155.878L120.01 153.673"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M120.01 153.673L146.487 153.673"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M110.581 157.283L110.581 146.318"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M105.031 147.32L120.01 149.527"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M120.01 149.527L146.487 149.527"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M142.685 157.099L142.685 146.242"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M140.545 158.245L140.545 156.981 144.967 156.981 144.967 158.245 140.545 158.245z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M140.618 146L140.618 144.735 145.04 144.735 145.04 146 140.618 146z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M108.662 159.143L108.314 157.927 112.566 156.71 112.914 157.924 108.662 159.143z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M108.626 146.872L108.28 145.657 112.53 144.439 112.878 145.653 108.626 146.872z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M121.245 156.878L121.245 145.913"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M119.326 158.739L118.98 157.524L123.228 156.305L123.578 157.519L119.326 158.739z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M119.292 146.468L118.944 145.254L123.194 144.036L123.543 145.25L119.292 146.468z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <g>
+      <text x="70.849" y="210.167" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x8-2</text>
+     </g>
+    </g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M54.655 203.385L69.634 201.18"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M69.634 201.18L96.111 201.18"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M60.206 204.789L60.206 193.824"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M54.655 194.826L69.634 197.033"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M69.634 197.033L96.111 197.033"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M87.93 204.789L87.93 193.423"/>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M85.753 205.919L85.753 204.655 90.174 204.655 90.174 205.919 85.753 205.919z"/>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M85.825 193.673L85.825 192.408 90.248 192.408 90.248 193.673 85.825 193.673z"/>
+    <g>
+     <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M58.286 206.65L57.939 205.435 62.189 204.216 62.539 205.43 58.286 206.65z"/>
+    </g>
+    <g>
+     <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M58.252 194.379L57.904 193.165 62.154 191.947 62.503 193.161 58.252 194.379z"/>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M65.825 204.806L65.825 193.84"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M63.905 206.664L63.557 205.45 67.808 204.231 68.158 205.447 63.905 206.664z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M63.871 194.395L63.523 193.181 67.772 191.962 68.121 193.176 63.871 194.395z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <g>
+      <text x="119.93" y="210.167" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">10x4*6</text>
+     </g>
+    </g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M105.033 203.385L120.01 201.18"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M120.01 201.18L146.487 201.18"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M110.581 204.789L110.581 193.824"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M105.033 194.826L120.01 197.033"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M120.01 197.033L146.487 197.033"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M138.306 204.789L138.306 193.423"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M131.381 204.723L131.381 193.866"/>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M136.129 205.919L136.129 204.655 140.55 204.655 140.55 205.919 136.129 205.919z"/>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M136.201 193.673L136.201 192.408 140.623 192.408 140.623 193.673 136.201 193.673z"/>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M129.241 205.87L129.241 204.605 133.663 204.605 133.663 205.87 129.241 205.87z"/>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M129.313 193.623L129.313 192.36 133.735 192.36 133.735 193.623 129.313 193.623z"/>
+    <g>
+     <path stroke-width="0.2" stroke-linejoin="round" d="M108.664 206.65L108.314 205.435L112.566 204.216L112.915 205.43L108.664 206.65z"/>
+    </g>
+    <g>
+     <path stroke-width="0.2" stroke-linejoin="round" d="M108.628 194.379L108.28 193.165L112.531 191.947L112.879 193.161L108.628 194.379z"/>
+    </g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M144.006 204.366L144.006 193.401"/>
+    <g>
+     <path stroke-width="0.2" stroke-linejoin="round" d="M145.925 206.225L146.272 205.012L142.021 203.793L141.674 205.008L145.925 206.225z"/>
+    </g>
+    <g>
+     <path stroke-width="0.2" stroke-linejoin="round" d="M145.96 193.956L146.307 192.742L142.057 191.524L141.71 192.737L145.96 193.956z"/>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M116.2 204.806L116.2 193.84"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M114.283 206.664L113.933 205.45L118.185 204.231L118.534 205.447L114.283 206.664z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M114.246 194.395L113.899 193.181L118.15 191.962L118.498 193.176L114.246 194.395z"/>
+   </g>
+  </g>
+  <g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.357 85.224L19.335 83.018"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.335 83.018L47.209 83.018"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M9.907 86.628L9.907 75.662"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.357 76.665L19.335 78.871"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.335 78.871L47.082 78.871"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M35.472 86.79L35.472 75.424"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M42.225 86.724L42.225 75.867"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M33.295 87.918L33.295 86.655 37.716 86.655 37.716 87.918 33.295 87.918z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M33.368 75.673L33.368 74.409 37.789 74.409 37.789 75.673 33.368 75.673z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M40.085 87.87L40.085 86.606L44.508 86.606L44.508 87.87L40.085 87.87z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M40.158 75.625L40.158 74.361L44.581 74.361L44.581 75.625L40.158 75.625z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M7.99 88.487L7.641 87.272L11.891 86.055L12.24 87.269L7.99 88.487z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M7.953 76.218L7.605 75.003L11.855 73.784L12.204 75L7.953 76.218z"/>
+   </g>
+   <g>
+    <g>
+     <text x="19.178" y="91.689" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x2/4</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M28.452 86.522L28.452 75.557"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M26.533 88.381L26.185 87.167L30.435 85.947L30.785 87.162L26.533 88.381z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M26.498 76.111L26.149 74.897L30.4 73.679L30.748 74.893L26.498 76.111z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="113.403" y="19.949" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">4x4+2</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M102.724 13.867L117.7 11.66"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M117.7 11.66L144.179 11.66"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M108.274 15.271L108.274 4.306"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M102.724 5.309L117.7 7.514"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M117.7 7.514L144.179 7.514"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M131.342 15.271L131.342 3.905"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M138.094 15.205L138.094 4.347"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M129.163 16.399L129.163 15.135 133.586 15.135 133.586 16.399 129.163 16.399z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M129.236 4.153L129.236 2.89 133.658 2.89 133.658 4.153 129.236 4.153z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M135.955 16.35L135.955 15.086L140.377 15.086L140.377 16.35L135.955 16.35z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M136.027 4.105L136.027 2.841L140.449 2.841L140.449 4.105L136.027 4.105z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M106.355 17.131L106.007 15.916 110.257 14.696 110.605 15.912 106.355 17.131z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M106.319 4.86L105.971 3.647 110.221 2.427 110.569 3.641 106.319 4.86z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="21.888" y="115.118" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x2-2</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.351 108.734L19.327 106.528"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.327 106.528L45.805 106.528"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M9.9 110.138L9.9 99.173"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.351 100.176L19.327 102.382"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.327 102.382L45.805 102.382"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M42.088 110.138L42.088 98.772"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M39.911 111.266L39.911 110.003 44.334 110.003 44.334 111.266 39.911 111.266z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M39.984 99.021L39.984 97.757 44.406 97.757 44.406 99.021 39.984 99.021z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M7.982 111.998L7.634 110.784L11.884 109.563L12.233 110.778L7.982 111.998z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M7.947 99.727L7.597 98.513L11.849 97.295L12.196 98.509L7.947 99.727z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M15.571 109.971L15.571 99.006"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M13.653 111.831L13.304 110.617L17.556 109.397L17.905 110.611L13.653 111.831z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M13.618 99.561L13.269 98.346L17.519 97.129L17.868 98.343L13.618 99.561z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="61.326" y="115.118" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x2/*6</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.719 108.734L69.694 106.528"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.694 106.528L96.174 106.528"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M60.268 110.138L60.268 99.173"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M54.719 100.176L69.694 102.382"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M69.694 102.382L96.174 102.382"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M83.335 110.138L83.335 98.772"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M81.158 111.266L81.158 110.003 85.581 110.003 85.581 111.266 81.158 111.266z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M81.23 99.021L81.23 97.757 85.653 97.757 85.653 99.021 81.23 99.021z"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M58.35 111.998L58 110.784L62.253 109.563L62.6 110.778L58.35 111.998z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M58.314 99.727L57.966 98.513L62.216 97.295L62.564 98.509L58.314 99.727z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M77.299 110.131L77.299 99.165"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M75.382 111.989L75.033 110.775L79.284 109.555L79.632 110.771L75.382 111.989z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M75.346 99.721L74.998 98.506L79.248 97.287L79.596 98.501L75.346 99.721z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M90.275 110.387L90.275 99.421"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M92.194 112.245L92.543 111.031L88.293 109.811L87.944 111.027L92.194 112.245z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M92.23 99.977L92.578 98.762L88.328 97.543L87.98 98.757L92.23 99.977z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="23.227" y="185.576" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x6</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.443 179.632L19.422 177.425"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.422 177.425L45.899 177.425"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M9.993 181.036L9.993 170.069"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.443 171.074L19.422 173.28"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.422 173.28L45.899 173.28"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M42.097 180.852L42.097 169.995"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M39.957 181.997L39.957 180.734 44.38 180.734 44.38 181.997 39.957 181.997z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M40.03 169.752L40.03 168.489 44.453 168.489 44.453 169.752 40.03 169.752z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M8.074 182.895L7.727 181.681 11.977 180.461 12.326 181.676 8.074 182.895z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M8.039 170.626L7.692 169.411 11.942 168.193 12.291 169.407 8.039 170.626z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M20.658 180.632L20.658 169.665"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M18.739 182.491L18.391 181.276L22.641 180.057L22.99 181.271L18.739 182.491z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M18.704 170.221L18.356 169.007L22.606 167.788L22.954 169.002L18.704 170.221z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M34.582 180.871L34.582 170.013"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M32.442 182.016L32.442 180.752 36.865 180.752 36.865 182.016 32.442 182.016z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M32.515 169.77L32.515 168.508 36.936 168.508 36.936 169.77 32.515 169.77z"/>
+  </g>
+  <g>
+   <g>
+    <g>
+     <text x="24.184" y="209.968" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">8x8</text>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.443 203.385L19.42 201.179"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.42 201.179L45.899 201.179"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M9.993 204.789L9.993 193.824"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M4.443 194.826L19.42 197.033"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M19.42 197.033L45.899 197.033"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M36.246 204.789L36.246 193.423"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M43 204.723L43 193.866"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M34.069 205.918L34.069 204.653 38.491 204.653 38.491 205.918 34.069 205.918z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M34.142 193.673L34.142 192.408 38.564 192.408 38.564 193.673 34.142 193.673z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M40.86 205.868L40.86 204.604 45.283 204.604 45.283 205.868 40.86 205.868z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M40.932 193.623L40.932 192.359 45.356 192.359 45.356 193.623 40.932 193.623z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M8.076 206.65L7.727 205.435 11.977 204.216 12.326 205.431 8.076 206.65z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M8.039 194.379L7.692 193.164 11.942 191.947 12.289 193.161 8.039 194.379z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M22.146 204.806L22.146 193.841"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M20.228 206.665L19.879 205.45 24.131 204.233 24.478 205.447 20.228 206.665z"/>
+   <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M20.192 194.396L19.844 193.181 24.094 191.962 24.443 193.177 20.192 194.396z"/>
+  </g>
+  <g>
+   <g>
+    <g>
+     <g>
+      <text x="19.343" y="233.92" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="4.583">10x4/6</text>
+     </g>
+    </g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M4.443 227.139L19.422 224.932"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M19.422 224.932L45.899 224.932"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M9.993 228.544L9.993 217.578"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M4.443 218.58L19.422 220.788"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M19.422 220.788L45.899 220.788"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M43.421 228.544L43.421 217.176"/>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M36.494 228.477L36.494 217.621"/>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M41.243 229.673L41.243 228.408 45.665 228.408 45.665 229.673 41.243 229.673z"/>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M41.317 217.426L41.317 216.163 45.738 216.163 45.738 217.426 41.317 217.426z"/>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M34.354 229.623L34.354 228.36 38.777 228.36 38.777 229.623 34.354 229.623z"/>
+    <path stroke-width="0.2" stroke-linejoin="round" fill="#000000" d="M34.427 217.377L34.427 216.114 38.85 216.114 38.85 217.377 34.427 217.377z"/>
+    <g>
+     <path stroke-width="0.2" stroke-linejoin="round" d="M8.074 230.403L7.727 229.188L11.977 227.969L12.326 229.183L8.074 230.403z"/>
+    </g>
+    <g>
+     <path stroke-width="0.2" stroke-linejoin="round" d="M8.039 218.133L7.692 216.919L11.942 215.7L12.291 216.914L8.039 218.133z"/>
+    </g>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M15.612 228.56L15.612 217.593"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M13.693 230.419L13.346 229.205L17.597 227.985L17.946 229.2L13.693 230.419z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M13.657 218.15L13.31 216.935L17.561 215.716L17.91 216.931L13.657 218.15z"/>
+   </g>
+   <path stroke-width="0.2" stroke-linejoin="round" d="M29.032 228.56L29.032 217.593"/>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M27.112 230.419L26.765 229.205L31.015 227.985L31.364 229.2L27.112 230.419z"/>
+   </g>
+   <g>
+    <path stroke-width="0.2" stroke-linejoin="round" d="M27.077 218.15L26.73 216.935L30.98 215.716L31.329 216.931L27.077 218.15z"/>
+   </g>
+  </g>
+ </g>
+ <g id="Picture_x0020_#">
+  <g>
+   <g>
+    <g>
+     <g>
+      <g>
+       <text transform="matrix(0 -1 1 0 148.818 233.98)" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="2.117">332 544</text>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
