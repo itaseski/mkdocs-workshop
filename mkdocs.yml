@@ -22,3 +22,9 @@ plugins:
 extra_css:
   - stylesheets/extra.css
 
+# navigation
+nav:
+  - Општо:
+    - Возило комплет:
+      - Поправка на пластични делови: vehicle/000001.md  
+

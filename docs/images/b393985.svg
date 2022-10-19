@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: Arbortext IsoDraw 7.3 -->
+<svg width="100%" height="100%" viewBox="0 0 38.435 18.375"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+ fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-linecap="round" fill="none" xml:space="preserve">
+ <g id="Standard_x0020_layer">
+  <path stroke-width="0.25" stroke-linejoin="round" stroke-miterlimit="10" d="M21.387 5.958C21.914 5.958 22.343 7.435 22.343 9.259C22.343 11.083 21.914 12.561 21.387 12.561C21.387 12.561 21.387 12.561 1.577 12.561C1.05 12.561 0.623 11.083 0.623 9.259C0.623 7.435 1.05 5.958 1.577 5.958C1.577 5.958 1.577 5.958 21.387 5.958z"/>
+  <path stroke-width="0.25" stroke-linejoin="round" stroke-miterlimit="10" d="M19.515 5.884C19.896 2.786 20.785 0.615 21.82 0.615C21.82 0.615 21.82 0.615 22.615 0.615C23.998 0.615 25.118 4.485 25.118 9.259C25.118 14.034 23.998 17.903 22.615 17.903C22.615 17.903 22.615 17.903 21.82 17.903C20.786 17.903 19.9 15.743 19.518 12.659"/>
+  <path stroke-width="0.131" stroke-linejoin="round" stroke-miterlimit="10" d="M21.82 0.615C23.202 0.615 24.321 4.485 24.321 9.259C24.321 14.034 23.202 17.903 21.82 17.903"/>
+  <path stroke-width="0.25" stroke-linejoin="round" stroke-miterlimit="10" d="M29.146 8.692L29.146 7.49L29.388 7.108L33.726 7.108L33.726 11.451L29.388 11.451L29.146 11.117L29.146 9.907"/>
+  <path stroke-width="0.131" stroke-linejoin="round" stroke-miterlimit="10" d="M32.588 9.961L32.771 11.172L29.146 11.172"/>
+  <path stroke-width="0.25" stroke-linejoin="round" stroke-miterlimit="10" d="M25.163 9.856L32.578 9.885L32.588 9.961"/>
+  <path stroke-width="0.25" stroke-linejoin="round" stroke-miterlimit="10" d="M32.561 8.734L25.163 8.742"/>
+  <path stroke-width="0.131" stroke-linejoin="round" stroke-miterlimit="10" d="M29.146 7.387L32.771 7.387L32.561 8.734"/>
+  <path stroke-width="0.131" stroke-linejoin="round" stroke-miterlimit="10" d="M1.62 5.953C2.148 5.953 2.576 7.432 2.576 9.255C2.576 11.077 2.148 12.556 1.62 12.556"/>
+ </g>
+ <g id="A4_x0020_quarter_x0020_frame">
+  <path stroke="#FFFFFF" stroke-width="0.006" d="M37.503 18.371L37.503 0.003L0.003 0.003L0.003 18.371L37.503 18.371z"/>
+ </g>
+ <g id="Picture_x0020_#">
+  <text transform="matrix(0 -6 6 0 36.317 17.359)" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="0.353">393 985</text>
+ </g>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: PTC Arbortext IsoDraw 7.3 -->
+<svg width="100%" height="100%" viewBox="0 0 75 102.612"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+ fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-linecap="round" fill="none" xml:space="preserve">
+ <g id="Frame">
+  <path stroke="none" fill="#FFFFFF" d="M75 102.612L0 102.612 0 0 75 0 75 102.612z"/>
+ </g>
+ <g id="Colour">
+ </g>
+ <g id="Standard_x0020_layer">
+  <path stroke-width="0.349" stroke-linejoin="round" d="M32.875 73.2C31.905 73.2 30.564 73.656 30.564 73.656C30.564 73.656 30.564 80.388 30.564 81.129C30.564 81.87 29.936 82.784 29.936 82.784L23.946 82.784C23.946 82.784 23.32 81.87 23.32 81.129C23.32 80.388 23.32 73.656 23.32 73.656L22.407 73.656L22.407 61.506L21.664 61.506L20.96 59.909L20.96 57.628L53.595 57.628L53.595 59.909L52.89 61.506L52.149 61.506L52.149 73.656L51.237 73.656C51.237 73.656 51.237 80.388 51.237 81.129C51.237 81.87 50.609 82.784 50.609 82.784L44.619 82.784C44.619 82.784 43.991 81.87 43.991 81.129C43.991 80.388 43.991 73.656 43.991 73.656C43.991 73.656 42.566 73.2 41.597 73.2L32.875 73.2z"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M23.32 73.656L30.564 73.656"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M43.991 73.656L51.237 73.656"/>
+  <g>
+   <text x="31.728" y="63.39" stroke="none" fill="#000000" font-family="'Arial'" font-size="5.996">20A</text>
+  </g>
+  <g>
+   <text x="23.684" y="97.215" stroke="none" fill="#000000" font-family="'Arial'" font-size="5.996">MAX 20A</text>
+  </g>
+  <path stroke-width="0.349" stroke-linejoin="round" d="M41.939 87.176L43.935 85.864L56.713 85.864L56.713 101.551L17.809 101.551L17.809 85.864L30.586 85.864L32.584 87.176L41.939 87.176z"/>
+  <path stroke-width="0.349" stroke-linejoin="round" d="M17.687 95.242L2.64 95.242"/>
+  <path stroke-width="0.349" stroke-linejoin="round" d="M73.195 95.242L56.761 95.242"/>
+  <path stroke-width="0.349" stroke-linejoin="round" d="M17.687 96.888L2.64 96.888"/>
+  <path stroke-width="0.349" stroke-linejoin="round" d="M73.195 96.888L56.761 96.888"/>
+  <path stroke-width="0.349" stroke-linejoin="round" d="M32.875 18.285C31.905 18.285 30.564 18.74 30.564 18.74C30.564 18.74 30.564 25.472 30.564 26.213C30.564 26.955 29.936 27.867 29.936 27.867L23.946 27.867C23.946 27.867 23.32 26.955 23.32 26.213C23.32 25.472 23.32 18.74 23.32 18.74L22.407 18.74L22.407 6.591L21.664 6.591L20.96 4.993L20.96 2.713L53.595 2.713L53.595 4.993L52.89 6.591L52.149 6.591L52.149 18.74L51.237 18.74C51.237 18.74 51.237 25.472 51.237 26.213C51.237 26.955 50.609 27.867 50.609 27.867L44.619 27.867C44.619 27.867 43.991 26.955 43.991 26.213C43.991 25.472 43.991 18.74 43.991 18.74C43.991 18.74 42.566 18.285 41.597 18.285L32.875 18.285z"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M23.32 18.74L30.564 18.74"/>
+  <path stroke-width="0.13" stroke-linejoin="round" d="M43.991 18.74L51.237 18.74"/>
+  <g>
+   <text x="31.728" y="8.474" stroke="none" fill="#000000" font-family="'Arial'" font-size="5.996">30A</text>
+  </g>
+  <g>
+   <text x="23.684" y="42.299" stroke="none" fill="#000000" font-family="'Arial'" font-size="5.996">MAX 20A</text>
+  </g>
+  <path stroke-width="0.349" stroke-linejoin="round" d="M41.939 32.259L43.935 30.949L56.713 30.949L56.713 46.634L17.809 46.634L17.809 30.949L30.586 30.949L32.584 32.259L41.939 32.259z"/>
+  <path stroke-width="0.349" stroke-linejoin="round" d="M17.687 40.326L2.64 40.326"/>
+  <path stroke-width="0.349" stroke-linejoin="round" d="M73.195 40.326L56.761 40.326"/>
+  <path stroke-width="0.349" stroke-linejoin="round" d="M17.687 41.972L2.64 41.972"/>
+  <path stroke-width="0.349" stroke-linejoin="round" d="M73.195 41.972L56.761 41.972"/>
+  <path stroke="#FFFFFF" stroke-width="0.501" stroke-linecap="butt" d="M51.691 2.625L50.482 1.417L37.505 14.394L24.527 1.417L23.318 2.625L36.298 15.602L23.318 28.58L24.527 29.788L37.505 16.809L50.482 29.788L51.691 28.58L38.712 15.602L51.691 2.625z"/>
+  <path stroke="none" fill="#000000" d="M51.691 2.625L50.482 1.417 37.505 14.394 24.527 1.417 23.318 2.625 36.298 15.602 23.318 28.58 24.527 29.788 37.505 16.809 50.482 29.788 51.691 28.58 38.712 15.602 51.691 2.625z"/>
+ </g>
+</svg>
