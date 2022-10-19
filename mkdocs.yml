@@ -10,6 +10,9 @@ theme:
   # Language
   language: mk
 
+  # Logo
+  logo: assets/logo.png
+
 plugins:
   - search
 
