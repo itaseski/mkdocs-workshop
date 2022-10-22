@@ -67,11 +67,26 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
   
+  
 
 plugins:
   - search:
       lang: mk
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       width: 100vh       
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes: 
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
 
+  
+  
 
 
 extra_css:

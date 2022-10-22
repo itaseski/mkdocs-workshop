@@ -21,8 +21,4 @@
 
 :bootstrap-cup-hot:
 
-[Subscribe to our newsletter](#){ .md-button }
-
-[Send :fontawesome-solid-paper-plane:](#){ .md-button }
-
 
