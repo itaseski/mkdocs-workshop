@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: PTC Arbortext IsoDraw 7.3 M070 -->
+<svg id="Standard_x0020_layer" width="100%" height="100%" viewBox="0 0 75 50"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+ fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-linecap="round" fill="none" xml:space="preserve">
+ <path stroke="none" d="M75 50L0 50L0 0L75 0L75 50z"/>
+ <g>
+  <line stroke-width="0.5" x1="1.593" y1="4.908" x2="1.593" y2="48.304"/>
+  <line stroke-width="0.5" x1="1.593" y1="48.304" x2="66.789" y2="48.304"/>
+  <line stroke-width="0.13" x1="1.593" y1="23.652" x2="31.644" y2="23.652"/>
+  <line stroke-width="0.13" x1="31.644" y1="23.652" x2="61.695" y2="23.652"/>
+  <path stroke-width="0.5" d="M1.593 23.652C4.344 19.271 13.308 7.557 19.725 7.66C25.125 7.745 29.987 19.629 31.644 23.652"/>
+  <path stroke-width="0.5" d="M61.695 23.652C62.921 21.699 65.382 18.289 68.302 15.118"/>
+  <path stroke-width="0.5" d="M61.695 23.652C58.945 28.033 49.981 39.747 43.564 39.646C38.164 39.56 33.301 27.676 31.644 23.652"/>
+  <line stroke-width="0.13" stroke-dasharray="3 3" x1="1.593" y1="7.658" x2="68.322" y2="7.658"/>
+  <line stroke-width="0.13" x1="68.322" y1="7.658" x2="69.322" y2="7.658"/>
+  <line stroke-width="0.13" stroke-dasharray="3 3" x1="1.593" y1="39.805" x2="68.323" y2="39.805"/>
+  <line stroke-width="0.13" x1="68.323" y1="39.805" x2="69.323" y2="39.805"/>
+  <line stroke-width="0.13" x1="61.695" y1="23.652" x2="61.695" y2="46.167"/>
+  <polygon stroke="none" fill="#000000" points="61.695 44.436 59.095 43.978 59.095 44.895"/>
+  <polygon stroke="none" fill="#000000" points="1.593 44.436 4.193 44.895 4.193 43.978"/>
+  <line stroke-width="0.13" x1="59.356" y1="44.436" x2="3.934" y2="44.436"/>
+  <polygon stroke="none" fill="#000000" points="67.468 39.805 67.927 37.206 67.01 37.206"/>
+  <polygon stroke="none" fill="#000000" points="67.468 7.658 67.01 10.259 67.927 10.259"/>
+  <line stroke-width="0.13" x1="67.468" y1="37.466" x2="67.468" y2="9.999"/>
+  <text transform="matrix(0 -1 1 0 73.781 48.057)" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="1.905">131287</text>
+  <g>
+   <path stroke="none" fill="#FFFFFF" d="M65.74 20.934L69.18 20.934 69.18 24.791 65.74 24.791 65.74 20.934z"/>
+   <text x="66.679" y="23.748" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="3.81">y</text>
+  </g>
+  <g>
+   <path stroke="none" fill="#FFFFFF" d="M29.882 42.615L33.322 42.615 33.322 46.472 29.882 46.472 29.882 42.615z"/>
+   <text x="30.611" y="46.055" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="3.81">T</text>
+  </g>
+  <path stroke-width="0.18" fill="#000000" d="M65.569 47.155L65.528 49.429 69.022 48.165 65.569 47.155z"/>
+  <path stroke-width="0.18" fill="#000000" d="M0.448 4.929L2.722 4.971 1.459 1.478 0.448 4.929z"/>
+ </g>
+</svg>
