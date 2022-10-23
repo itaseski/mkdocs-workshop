@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: PTC Arbortext IsoDraw 7.3 M070 -->
+<svg id="Standard_x0020_layer" width="100%" height="100%" viewBox="0 0 70.549 64.308"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+ fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-linecap="round" fill="none" xml:space="preserve">
+ <g>
+  <path stroke-width="0.3" d="M43.529 29.288C43.529 24.721 39.826 21.018 35.259 21.018C30.693 21.018 26.99 24.721 26.99 29.288C26.99 33.853 30.693 37.557 35.259 37.557C39.826 37.557 43.529 33.853 43.529 29.288"/>
+ </g>
+ <g>
+  <path stroke-width="0.13" d="M44.753 29.288C44.753 24.045 40.503 19.795 35.259 19.795C30.018 19.795 25.768 24.045 25.768 29.288C25.768 34.53 30.018 38.78 35.259 38.78C40.503 38.78 44.753 34.53 44.753 29.288"/>
+ </g>
+ <g>
+  <path stroke-width="0.13" d="M54.234 29.288C54.234 18.807 45.74 10.313 35.259 10.313C24.78 10.313 16.285 18.807 16.285 29.288C16.285 39.767 24.78 48.262 35.259 48.262C45.74 48.262 54.234 39.767 54.234 29.288"/>
+ </g>
+ <polygon stroke-width="0.3" points="57.094 29.288 46.177 10.378 24.343 10.378 13.426 29.288 24.343 48.197 46.177 48.197 57.094 29.288"/>
+ <g>
+  <path stroke-width="0.13" d="M70.215 29.288C70.215 27.772 70.118 26.28 69.95 24.989"/>
+  <path stroke-width="0.13" d="M3.62 44.145C9.532 56.734 21.992 64.155 35.259 64.242C54.564 64.242 70.215 48.593 70.215 29.288"/>
+ </g>
+ <line stroke-width="0.13" x1="46.264" y1="48.048" x2="53.929" y2="61.116"/>
+ <line stroke-width="0.13" x1="17.419" y1="37.664" x2="0.065" y2="45.814"/>
+ <g>
+  <path stroke-width="0.13" stroke-dasharray="2 2" d="M69.986 25.295C69.043 17.103 65.341 9.9 59.976 4.57C58.448 3.041 56.811 1.684 55.268 0.626"/>
+  <path stroke-width="0.13" d="M55.268 0.626C54.979 0.425 54.689 0.228 54.441 0.065"/>
+ </g>
+ <line stroke-width="0.13" x1="3.62" y1="44.145" x2="4.49" y2="49.152"/>
+ <line stroke-width="0.13" x1="4.49" y1="49.152" x2="5.389" y2="47.442"/>
+ <line stroke-width="0.13" x1="3.62" y1="44.145" x2="7.317" y2="47.341"/>
+ <line stroke-width="0.13" x1="7.317" y1="47.341" x2="5.389" y2="47.442"/>
+ <line stroke-width="0.13" x1="52.944" y1="59.439" x2="57.834" y2="58.049"/>
+ <line stroke-width="0.13" x1="57.834" y1="58.049" x2="56.037" y2="57.335"/>
+ <line stroke-width="0.13" x1="52.944" y1="59.439" x2="55.735" y2="55.426"/>
+ <line stroke-width="0.13" x1="55.735" y1="55.426" x2="56.037" y2="57.335"/>
+ <g>
+  <path stroke="none" fill="#000000" d="M3.62 44.145L4.49 49.152 5.389 47.442 7.317 47.341"/>
+ </g>
+ <g>
+  <path stroke="none" fill="#000000" d="M52.944 59.439L57.834 58.049 56.037 57.335 55.735 55.426"/>
+ </g>
+ <text x="67.018" y="49.35" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="6.349">1</text>
+ <text x="3.948" y="57.359" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="6.349">2</text>
+ <text transform="matrix(0 -1 1 0 67.519 63.868)" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="2.117">146 491</text>
+</svg>

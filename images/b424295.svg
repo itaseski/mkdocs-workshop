@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: PTC Arbortext IsoDraw 7.3 M090 -->
+<svg width="100%" height="100%" viewBox="0 0 50.006 25.006"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+ fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-linecap="round" fill="none" xml:space="preserve">
+ <g id="A4_x0020_half_x0020_frame">
+  <polygon stroke="#FFFFFF" stroke-width="0.006" stroke-linejoin="round" points="0.003 0.003 50.003 0.003 50.003 25.003 0.003 25.003 0.003 0.003"/>
+ </g>
+ <g id="Colour">
+ </g>
+ <g id="Standard_x0020_layer">
+  <g>
+   <path stroke-width="0.13" d="M19.051 10.984C19.051 6.402 15.336 2.687 10.755 2.687C6.173 2.687 2.458 6.402 2.458 10.984C2.458 15.566 6.173 19.28 10.755 19.28C15.336 19.28 19.051 15.566 19.051 10.984"/>
+  </g>
+  <polygon stroke-width="0.3" points="19.082 6.176 10.755 1.367 2.427 6.176 2.427 15.791 10.755 20.599 19.082 15.791 19.082 6.176"/>
+  <line stroke-width="0.3" x1="26.047" y1="12.964" x2="26.047" y2="9.503"/>
+  <line stroke-width="0.13" x1="30.873" y1="12.803" x2="30.873" y2="9.663"/>
+  <path stroke-width="0.3" d="M26.047 9.503C26.199 9.07 27.143 8.556 28.73 8.47"/>
+  <line stroke-width="0.3" x1="28.73" y1="8.47" x2="36.018" y2="8.47"/>
+  <path stroke-width="0.13" d="M28.73 8.47C29.544 8.641 30.873 9.143 30.873 9.663"/>
+  <path stroke-width="0.13" d="M30.873 9.663C31.687 9.07 34.088 8.426 35.59 8.47"/>
+  <line stroke-width="0.3" x1="45.353" y1="12.965" x2="45.353" y2="9.503"/>
+  <line stroke-width="0.13" x1="40.527" y1="12.803" x2="40.527" y2="9.663"/>
+  <path stroke-width="0.3" d="M45.353 9.503C45.201 9.07 44.258 8.556 42.671 8.47"/>
+  <line stroke-width="0.3" x1="42.671" y1="8.47" x2="35.384" y2="8.47"/>
+  <path stroke-width="0.13" d="M42.671 8.47C41.857 8.641 40.527 9.143 40.527 9.663"/>
+  <path stroke-width="0.13" d="M40.527 9.663C39.713 9.07 37.313 8.426 35.813 8.47"/>
+  <polygon stroke="none" fill="#000000" points="12.125 18.323 13.638 20.486 14.288 19.838"/>
+  <line stroke-width="0.13" x1="13.779" y1="19.978" x2="17.361" y2="23.562"/>
+  <g>
+   <path stroke-width="0.3" d="M14.534 10.984C14.534 8.897 12.842 7.205 10.755 7.205C8.667 7.205 6.976 8.897 6.976 10.984C6.976 13.07 8.667 14.762 10.755 14.762C12.842 14.762 14.534 13.07 14.534 10.984"/>
+  </g>
+  <g>
+   <path stroke-width="0.13" d="M15.666 10.984C15.666 8.271 13.467 6.072 10.755 6.072C8.041 6.072 5.843 8.271 5.843 10.984C5.843 13.695 8.041 15.896 10.755 15.896C13.467 15.896 15.666 13.695 15.666 10.984"/>
+  </g>
+  <path stroke-width="0.3" d="M45.353 12.964C45.201 13.397 44.258 13.912 42.671 13.996"/>
+  <line stroke-width="0.3" x1="42.671" y1="13.996" x2="35.384" y2="13.996"/>
+  <path stroke-width="0.13" d="M42.671 13.996C41.857 13.826 40.527 13.324 40.527 12.804"/>
+  <path stroke-width="0.13" d="M40.527 12.804C39.713 13.397 37.313 14.039 35.813 13.996"/>
+  <path stroke-width="0.3" d="M26.047 12.964C26.199 13.397 27.143 13.912 28.73 13.996"/>
+  <line stroke-width="0.3" x1="28.73" y1="13.996" x2="36.018" y2="13.996"/>
+  <path stroke-width="0.13" d="M28.73 13.996C29.544 13.826 30.873 13.324 30.873 12.804"/>
+  <path stroke-width="0.13" d="M30.873 12.804C31.687 13.397 34.088 14.039 35.59 13.996"/>
+  <text x="34.45" y="12.047" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="2.117">D5</text>
+  <text x="9.346" y="18.21" stroke="none" fill="#000000" font-family="'Helvetica'" font-size="2.117">D5</text>
+ </g>
+ <g id="Blow-up">
+ </g>
+ <g id="Symbols">
+ </g>
+ <g id="Text&amp;Poses">
+ </g>
+ <g id="Measures">
+ </g>
+ <g id="Picture_x0020_#">
+  <text transform="matrix(0 -1 1 0 47.817 24.184)" stroke="none" fill="#000000" font-family="'Arial'" font-size="2.117">424 295</text>
+ </g>
+</svg>
