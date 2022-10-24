@@ -1,6 +1,8 @@
-![EuroPythonLogo](images/intro.png)
+
 
 ## Link Logistik N&N
+
+![EuroPythonLogo](images/intro.png)
 
 Упатството за одржување се состои пред се од документи од SCANIA - Workshoop Manual, Scania Multi и упатство за програмот SDP3 а кои се однесуват за броевите на шасии кои ги поседува Link Lоgistik N&N.
 

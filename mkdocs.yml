@@ -61,13 +61,11 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
   - pymdownx.emoji:
-      #emoji_index: !!python/name:materialx.emoji.twemoji
-      #emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
       options:
         custom_icons:
-          - overrides/.icons
-  
-  
+          - overrides/.icons  
 
 plugins:
   - search:
@@ -83,10 +81,7 @@ plugins:
        skip_classes: 
          - custom-skip-class-name
        auto_caption: false
-       caption_position: bottom
-
-  
-  
+       caption_position: bottom 
 
 
 extra_css:
@@ -116,6 +111,9 @@ nav:
       - Систем за гориво Scania XPI: fuel/030003.md
     - Бризгалки:
       - Акумулатор: fuel/030101.md
+  - Дополнителна опрема:
+    - Безбедносна опрема, алат:
+      - Носач за резервно тркало: complementary/190102.md
   - Кориснички функции:
     - Предупредување на возачот:
       - Низок притисок на масло: user-functions/2201110.md
@@ -142,6 +140,7 @@ nav:
       - Сопирање со сопирачка на издувни гасови: user-functions/2220100.md
     - Одржување:
       - Дијагностика во возилото: user-functions/2265173.md
+      - A/C функција за одржување: user-functions/2265369.md
     - Безбедност:
       - Ограничување на брзината: user-functions/2270117.md
       - Заштита од превртување: user-functions/2270132.md
