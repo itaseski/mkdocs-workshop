@@ -7,7 +7,7 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <link href="../../images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.1, mkdocs-material-8.5.7" name="generator"/>
-<title>Статус на сигналните сијалици - Работилничка документација</title>
+<title>A/C функција за одржување - Работилничка документација</title>
 <link href="../../assets/stylesheets/main.20d9efc8.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
 <meta content="#4cae4f" name="theme-color"/>
@@ -55,7 +55,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Статус на сигналните сијалици
+              A/C функција за одржување
             
           </span>
 </div>
@@ -478,8 +478,8 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" id="__nav_5_5" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" id="__nav_5_5" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5_5">
           Одржување
           <span class="md-nav__icon md-icon"></span>
@@ -495,10 +495,33 @@
         Дијагностика во возилото
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../2265369/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          A/C функција за одржување
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
         A/C функција за одржување
       </a>
+<nav aria-label="Содржина" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Содржина
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+    Намена
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    Начин на работа
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -578,8 +601,8 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_9" id="__nav_5_9" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_9" id="__nav_5_9" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5_9">
           Подготовки
           <span class="md-nav__icon md-icon"></span>
@@ -590,33 +613,10 @@
           Подготовки
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          Статус на сигналните сијалици
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2285517/">
         Статус на сигналните сијалици
       </a>
-<nav aria-label="Содржина" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Содржина
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#_1">
-    Намена
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#_2">
-    Начин на работа
-  </a>
-</li>
-</ul>
-</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../2285544/">
@@ -665,11 +665,12 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>Статус на сигналните сијалици</h1>
+<h1>A/C функција за одржување</h1>
 <h2 id="_1">Намена</h2>
-<p>Функцијата е да се проследи статусот на сигналните сијалици во возилото до Scania Fleet Management.</p>
+<p>Функцијата го вклучува од време на време клима уредот со цел да го испита системот.</p>
 <h2 id="_2">Начин на работа</h2>
-<p>Информацијата се испраќа преку FMS-CAN и е со намера да му помогне на сопственикот на возилото при надгледувањето на возилото и возачот.</p>
+<p>Клима уредот во нормални услови се активира кога се сака да се постигне поладна клима во кабината. Поради тоа клима уредот може да остане не вклучен подолг период.</p>
+<p>Во ваков случај средството за разладувње во инсталацијата може да кондензира и да се врати цо компресорот. Ако компресорот стартува со течност може да се оштети. Оваа функција го спречува тоа со тоа што го активира A/C уредот ако подолго време не се користел.</p>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
@@ -681,7 +682,7 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="Подножје" class="md-footer__inner md-grid" hidden="">
-<a aria-label="Претходно: Контрола на вентилаторот за ладење" class="md-footer__link md-footer__link--prev" href="../228098/" rel="prev">
+<a aria-label="Претходно: Дијагностика во возилото" class="md-footer__link md-footer__link--prev" href="../2265173/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -690,17 +691,17 @@
 <span class="md-footer__direction">
                 Претходно
               </span>
-              Контрола на вентилаторот за ладење
+              Дијагностика во возилото
             </div>
 </div>
 </a>
-<a aria-label="Следно: Станица за мобилен телефон" class="md-footer__link md-footer__link--next" href="../2285544/" rel="next">
+<a aria-label="Следно: Ограничување на брзината" class="md-footer__link md-footer__link--next" href="../2270117/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Следно
               </span>
-              Станица за мобилен телефон
+              Ограничување на брзината
             </div>
 </div>
 <div class="md-footer__button md-icon">
