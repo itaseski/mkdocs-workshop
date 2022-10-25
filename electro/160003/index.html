@@ -1,0 +1,2658 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="mk">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../../images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.1, mkdocs-material-8.5.7" name="generator"/>
+<title>Конекторти и терминали - Работилничка документација</title>
+<link href="../../assets/stylesheets/main.20d9efc8.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<meta content="#4cae4f" name="theme-color"/>
+<style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 0 1 .25-.25h5.025a.25.25 0 0 1 .177.073l6.25 6.25a.25.25 0 0 1 0 .354l-5.025 5.025a.25.25 0 0 1-.354 0l-6.25-6.25a.25.25 0 0 1-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.75 1.75 0 0 1 1 7.775zM6 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 0 1 .25-.25h8.5a.25.25 0 0 1 .25.25v7.736a.75.75 0 1 0 1.5 0V1.75A1.75 1.75 0 0 0 11.25 0h-8.5A1.75 1.75 0 0 0 1 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 0 0 0-1.5H2.75a.25.25 0 0 1-.25-.25V1.75zM4.75 4a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5zM4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75zm11.774 3.537a.75.75 0 0 0-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 0 0-1.062 1.058l1.943 1.95a.75.75 0 0 0 1.055.008l4.557-4.45z"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm6.5-.25A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75zM8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.499.75a.75.75 0 0 1 1.5 0v.996C5.9 2.903 6.793 3.65 7.662 4.376l.24.202c-.036-.694.055-1.422.426-2.163C9.1.873 10.794-.045 12.622.26 14.408.558 16 1.94 16 4.25c0 1.278-.954 2.575-2.44 2.734l.146.508.065.22c.203.701.412 1.455.476 2.226.142 1.707-.4 3.03-1.487 3.898C11.714 14.671 10.27 15 8.75 15h-6a.75.75 0 0 1 0-1.5h1.376a4.489 4.489 0 0 1-.563-1.191 3.833 3.833 0 0 1-.05-2.063 4.636 4.636 0 0 1-2.025-.293.75.75 0 1 1 .525-1.406c1.357.507 2.376-.006 2.698-.318l.009-.01a.748.748 0 0 1 1.06 0 .75.75 0 0 1-.012 1.074c-.912.92-.992 1.835-.768 2.586.221.74.745 1.337 1.196 1.621H8.75c1.343 0 2.398-.296 3.074-.836.635-.507 1.036-1.31.928-2.602-.05-.603-.216-1.224-.422-1.93l-.064-.221c-.12-.407-.246-.84-.353-1.29a2.404 2.404 0 0 1-.507-.441 3.063 3.063 0 0 1-.633-1.248.75.75 0 0 1 1.455-.364c.046.185.144.436.31.627.146.168.353.305.712.305.738 0 1.25-.615 1.25-1.25 0-1.47-.95-2.315-2.123-2.51-1.172-.196-2.227.387-2.706 1.345-.46.92-.27 1.774.019 3.062l.042.19a.753.753 0 0 1 .01.05c.348.443.666.949.94 1.553a.75.75 0 1 1-1.365.62c-.553-1.217-1.32-1.94-2.3-2.768a85.08 85.08 0 0 0-.317-.265c-.814-.68-1.75-1.462-2.692-2.619a3.74 3.74 0 0 0-1.023.88c-.406.495-.663 1.036-.722 1.508.116.122.306.21.591.239.388.038.797-.06 1.032-.19a.75.75 0 0 1 .728 1.31c-.515.287-1.23.439-1.906.373-.682-.067-1.473-.38-1.879-1.193L.75 5.677V5.5c0-.984.48-1.94 1.077-2.664.46-.559 1.05-1.055 1.673-1.353V.75z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.92 6.085c.081-.16.19-.299.34-.398.145-.097.371-.187.74-.187.28 0 .553.087.738.225A.613.613 0 0 1 9 6.25c0 .177-.04.264-.077.318a.956.956 0 0 1-.277.245c-.076.051-.158.1-.258.161l-.007.004a7.728 7.728 0 0 0-.313.195 2.416 2.416 0 0 0-.692.661.75.75 0 0 0 1.248.832.956.956 0 0 1 .276-.245 6.3 6.3 0 0 1 .26-.16l.006-.004c.093-.057.204-.123.313-.195.222-.149.487-.355.692-.662.214-.32.329-.702.329-1.15 0-.76-.36-1.348-.863-1.725A2.76 2.76 0 0 0 8 4c-.631 0-1.155.16-1.572.438-.413.276-.68.638-.849.977a.75.75 0 1 0 1.342.67z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575L6.457 1.047zM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-.25-5.25a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 0 1.5 0v-2.5z"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.404 12.596a6.5 6.5 0 1 1 9.192-9.192 6.5 6.5 0 0 1-9.192 9.192zM2.344 2.343a8 8 0 1 0 11.313 11.314A8 8 0 0 0 2.343 2.343zM6.03 4.97a.75.75 0 0 0-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 1 0 1.06 1.06L8 9.06l1.97 1.97a.75.75 0 1 0 1.06-1.06L9.06 8l1.97-1.97a.75.75 0 1 0-1.06-1.06L8 6.94 6.03 4.97z"/></svg>');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M10.561 1.5a.016.016 0 0 0-.01.004L3.286 8.571A.25.25 0 0 0 3.462 9H6.75a.75.75 0 0 1 .694 1.034l-1.713 4.188 6.982-6.793A.25.25 0 0 0 12.538 7H9.25a.75.75 0 0 1-.683-1.06l2.008-4.418.003-.006a.02.02 0 0 0-.004-.009.02.02 0 0 0-.006-.006L10.56 1.5zM9.504.43a1.516 1.516 0 0 1 2.437 1.713L10.415 5.5h2.123c1.57 0 2.346 1.909 1.22 3.004l-7.34 7.142a1.25 1.25 0 0 1-.871.354h-.302a1.25 1.25 0 0 1-1.157-1.723L5.633 10.5H3.462c-1.57 0-2.346-1.909-1.22-3.004L9.503.429z"/></svg>');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.72.22a.75.75 0 0 1 1.06 0l1 .999a3.492 3.492 0 0 1 2.441 0l.999-1a.75.75 0 1 1 1.06 1.061l-.775.776c.616.63.995 1.493.995 2.444v.327c0 .1-.009.197-.025.292.408.14.764.392 1.029.722l1.968-.787a.75.75 0 0 1 .556 1.392L13 7.258V9h2.25a.75.75 0 0 1 0 1.5H13v.5c0 .409-.049.806-.141 1.186l2.17.868a.75.75 0 0 1-.557 1.392l-2.184-.873A4.997 4.997 0 0 1 8 16a4.997 4.997 0 0 1-4.288-2.427l-2.183.873a.75.75 0 0 1-.558-1.392l2.17-.868A5.013 5.013 0 0 1 3 11v-.5H.75a.75.75 0 0 1 0-1.5H3V7.258L.971 6.446a.75.75 0 0 1 .558-1.392l1.967.787c.265-.33.62-.583 1.03-.722a1.684 1.684 0 0 1-.026-.292V4.5c0-.951.38-1.814.995-2.444L4.72 1.28a.75.75 0 0 1 0-1.06zM6.173 5h3.654A.173.173 0 0 0 10 4.827V4.5a2 2 0 1 0-4 0v.327c0 .096.077.173.173.173zM5.25 6.5a.75.75 0 0 0-.75.75V11a3.5 3.5 0 1 0 7 0V7.25a.75.75 0 0 0-.75-.75h-5.5z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M5 5.782V2.5h-.25a.75.75 0 0 1 0-1.5h6.5a.75.75 0 0 1 0 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458L5 5.782zM9.5 2.5h-3V6a.75.75 0 0 1-.117.403L4.73 9h6.54L9.617 6.403A.75.75 0 0 1 9.5 6V2.5zm-6.9 9.847L3.775 10.5h8.45l1.175 1.847a.75.75 0 0 1-.633 1.153H3.233a.75.75 0 0 1-.633-1.153z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 2.5a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H1.75zm4 5a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5zm0 5a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5zM2.5 7.75a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 1.5 0v-6z"/></svg>');}</style>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gdesc-inner { font-size: 0.75rem; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="light-green" data-md-color-primary="green" data-md-color-scheme="" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#_1">
+          Прескокнете до содржината
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Заглавје" class="md-header__inner md-grid">
+<a aria-label="Работилничка документација" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Работилничка документација">
+<img alt="logo" src="../../assets/logo.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Работилничка документација
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Конекторти и терминали
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Пребарување" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Пребарување" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<a aria-label="Share" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="Share">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"></path></svg>
+</a>
+<button aria-label="Чисти" class="md-search__icon md-icon" tabindex="-1" title="Чисти" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Иницијализирање на пребарувањето
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Наслов за навигација" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Работилничка документација" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Работилничка документација">
+<img alt="logo" src="../../assets/logo.png"/>
+</a>
+    Работилничка документација
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1">
+          Општо
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Општо" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_1">
+<span class="md-nav__icon md-icon"></span>
+          Општо
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1" id="__nav_1_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_1">
+          Возило комплет
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Возило комплет" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_1_1">
+<span class="md-nav__icon md-icon"></span>
+          Возило комплет
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../vehicle/000001/">
+        Поправка на пластични делови
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../vehicle/000002/">
+        Складирање на шасии и делови
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../vehicle/000003/">
+        Означување
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../vehicle/000004/">
+        Вибрации
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" id="__nav_1_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_2">
+          Инструкции
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Инструкции" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_1_2">
+<span class="md-nav__icon md-icon"></span>
+          Инструкции
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../vehicle/000105/">
+        Влечење и пренесување
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../vehicle/000106/">
+        Споеви со завртки
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../vehicle/000107/">
+        Единици мерки
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+          Мотор
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Мотор" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Мотор
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../engine/010001/">
+        Перење на моторот
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          Систем за ладење
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Систем за ладење" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Систем за ладење
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" id="__nav_3_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_1">
+          Систем за ладење склоп
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Систем за ладење склоп" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_1">
+<span class="md-nav__icon md-icon"></span>
+          Систем за ладење склоп
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../cooling-system/020001/">
+        Систем за ладење
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" id="__nav_3_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_2">
+          Ладилник
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Ладилник" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_2">
+<span class="md-nav__icon md-icon"></span>
+          Ладилник
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../cooling-system/020101/">
+        Експанзионен резервоар
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../cooling-system/020102/">
+        Ладилник
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" id="__nav_3_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_3">
+          Ладилник за напоен воздух
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Ладилник за напоен воздух" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_3">
+<span class="md-nav__icon md-icon"></span>
+          Ладилник за напоен воздух
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../cooling-system/020501/">
+        Ладилник за напоен воздух
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../cooling-system/020502/">
+        T121, сензор за температура на напојниот воздух
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../cooling-system/020503/">
+        T122, сензор за притисок на напојниот воздух
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" id="__nav_3_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_4">
+          Црева и цевки
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Црева и цевки" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_4">
+<span class="md-nav__icon md-icon"></span>
+          Црева и цевки
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../cooling-system/023001/">
+        T33, сензор за температура на разладната вода
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4">
+          Гориво и издувни гасови
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Гориво и издувни гасови" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          Гориво и издувни гасови
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" id="__nav_4_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_1">
+          Систем за гориво склоп
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Систем за гориво склоп" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_1">
+<span class="md-nav__icon md-icon"></span>
+          Систем за гориво склоп
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fuel/030001/">
+        Пресметка на факторот на потрошувачка на гориво
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fuel/030002/">
+        Гориво
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fuel/030003/">
+        Систем за гориво Scania XPI
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" id="__nav_4_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_2">
+          Бризгалки
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Бризгалки" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_2">
+<span class="md-nav__icon md-icon"></span>
+          Бризгалки
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fuel/030101/">
+        Акумулатор
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fuel/030102/">
+        Напојна пумпа
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../fuel/030105/">
+        Бризгалка XPI
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5">
+          Електричен систем
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Електричен систем" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          Електричен систем
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" id="__nav_5_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_1">
+          Електрика склоп
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Електрика склоп" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_1">
+<span class="md-nav__icon md-icon"></span>
+          Електрика склоп
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../160002/">
+        Поправка на кабли
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Конекторти и терминали
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Конекторти и терминали
+      </a>
+<nav aria-label="Содржина" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Содржина
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+    Намена
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    Спецификација
+  </a>
+<nav aria-label="Спецификација" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+    Рачен алат за пресување и расклопување.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_4">
+    Начин на работа
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6">
+          Кабина
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Кабина" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+          Кабина
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_1" id="__nav_6_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_1">
+          Брисачи
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Брисачи" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_1">
+<span class="md-nav__icon md-icon"></span>
+          Брисачи
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../cab/185001/">
+        Перење на челните светла
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" id="__nav_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7">
+          Дополнителна опрема
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Дополнителна опрема" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+          Дополнителна опрема
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_1" id="__nav_7_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7_1">
+          Безбедносна опрема, алат
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Безбедносна опрема, алат" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_1">
+<span class="md-nav__icon md-icon"></span>
+          Безбедносна опрема, алат
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../complementary/190102/">
+        Носач за резервно тркало
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_2" id="__nav_7_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7_2">
+          Опрема на влекачот
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Опрема на влекачот" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_7_2">
+<span class="md-nav__icon md-icon"></span>
+          Опрема на влекачот
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../complementary/190501/">
+        Петто тркало
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" id="__nav_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8">
+          Кориснички функции
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Кориснички функции" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+          Кориснички функции
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_1" id="__nav_8_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_1">
+          Предупредување на возачот
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Предупредување на возачот" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_1">
+<span class="md-nav__icon md-icon"></span>
+          Предупредување на возачот
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201110/">
+        Низок притисок на масло
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201114/">
+        Висока температура на разладната течност
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201115/">
+        Ниско ниво на разладна течност
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201124/">
+        Отказ на ABS системот на приколката
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201125/">
+        Предупредување дека приколката нема ABS
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201126/">
+        Дефект на ABS системот на возилото
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201127/">
+        Дефект на EBS системот на приколката
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201128/">
+        Дефект на EBS системот на возилото
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201187/">
+        Низок притисок во задните сопирачки кругови
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201189/">
+        Низок притисок во предните сопирачки кругови
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201191/">
+        Низок притисок во паркирна сопирачка и приколката
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201196/">
+        Дефект на APS системот
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201217/">
+        Дефект на ретардерот
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201218/">
+        Дефект на менувачот
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201259/">
+        Низок притисок за сопирачката на EBS приколка
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2201283/">
+        Дефект на SMS системот
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_2" id="__nav_8_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_2">
+          Економична работа
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Економична работа" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_2">
+<span class="md-nav__icon md-icon"></span>
+          Економична работа
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2205170/">
+        Заштита на менувачот
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_3" id="__nav_8_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_3">
+          Надгледување на возилото
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Надгледување на возилото" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_3">
+<span class="md-nav__icon md-icon"></span>
+          Надгледување на возилото
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2210108/">
+        Прикажување на опсег на оптимален број на вртежи
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_4" id="__nav_8_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_4">
+          Сопирачка
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Сопирачка" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_4">
+<span class="md-nav__icon md-icon"></span>
+          Сопирачка
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2220100/">
+        Сопирање со сопирачка на издувни гасови
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_5" id="__nav_8_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_5">
+          Одржување
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Одржување" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_5">
+<span class="md-nav__icon md-icon"></span>
+          Одржување
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2265173/">
+        Дијагностика во возилото
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2265369/">
+        A/C функција за одржување
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_6" id="__nav_8_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_6">
+          Безбедност
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Безбедност" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_6">
+<span class="md-nav__icon md-icon"></span>
+          Безбедност
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2270117/">
+        Ограничување на брзината
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2270132/">
+        Заштита од превртување
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_7" id="__nav_8_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_7">
+          Заштита од кражба
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Заштита од кражба" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_7">
+<span class="md-nav__icon md-icon"></span>
+          Заштита од кражба
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2275180/">
+        Централно забравување
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_8" id="__nav_8_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_8">
+          Контрола нa моторот
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Контрола нa моторот" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_8">
+<span class="md-nav__icon md-icon"></span>
+          Контрола нa моторот
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2280119/">
+        Подесување на бројот навртежи со педалата за гас
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2280573/">
+        Периодично испарување на јагленохидратите
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/228098/">
+        Контрола на вентилаторот за ладење
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_9" id="__nav_8_9" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8_9">
+          Подготовки
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Подготовки" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_9">
+<span class="md-nav__icon md-icon"></span>
+          Подготовки
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2285517/">
+        Статус на сигналните сијалици
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2285544/">
+        Станица за мобилен телефон
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user-functions/2285546/">
+        Alcolock
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Содржина" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Содржина
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+    Намена
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    Спецификација
+  </a>
+<nav aria-label="Спецификација" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+    Рачен алат за пресување и расклопување.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_4">
+    Начин на работа
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>Конекторти и терминали</h1>
+<h2 id="_1">Намена</h2>
+<p>Овде се дадени информации кои овозможуваат полесна работа со конекторите и терминалите.</p>
+<h2 id="_2">Спецификација</h2>
+<h3 id="_3">Рачен алат за пресување и расклопување.</h3>
+<p>Подоле е дадена листа, нумерички подредена според бројот на терминалот.</p>
+<p>Ако е прикажано "N/A" тоа значи дека се нема информација за алатот. Ознаката "без забравник" значи дека не треба алат.</p>
+<p><strong><em>Терминали: 199949 - 813512</em></strong></p>
+<table>
+<thead>
+<tr>
+<th>терминал</th>
+<th>клешта</th>
+<th>алат за расклопување</th>
+<th>пример на употреба</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>199949</td>
+<td><a href="tools/588202.md">588202</a>, влошка 1mm²</td>
+<td><a href="588209.md">588 209</a>, <a href="2267654.md">2 267 654</a></td>
+<td>конектор, 5-pin (Coni)</td>
+</tr>
+<tr>
+<td>199950</td>
+<td><a href="tools/588202.md">588202</a>, влошка 1mm²</td>
+<td><a href="588209.md">588 209</a>, <a href="2267654.md">2 267 654</a></td>
+<td>конектор, 5-pin (Coni)</td>
+</tr>
+<tr>
+<td>199955</td>
+<td><a href="tools/588202.md">99493</a>, влошка B</td>
+<td><a href="588209.md">588 209</a>, <a href="2267654.md">2 267 654</a></td>
+<td>конектор, 5-pin (Coni)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">Начин на работа</h2>
+<p>Момент на затегање.</p>
+<p>Алат.</p>
+<p>Опис на делување</p>
+<p>Електричниот систем на SCANIA возилата содржи голем број на конектори. Овие конектори собрани заедно претставуваат илјадници спојни места.</p>
+<p>Повеќето конектори се означени со код. Кодот се содржи од големата латинична буква C, после која следи сериски број, на пример C4.</p>
+<p>Постојат повеќе типови на конектори кои можат да имаат и до 70 терминали. Терминалите можат да бидат рамни или
+    округли и од различен материјал: рамни - фосфор бронза, обложени со месинг, обложени со злато. Контактите обложени
+    со злато се користат кај конекторите каде се бара голем спроводливост.
+    Повеќето конектори се кодирани со коден број. Кодот се содржи од големата буква ц на латиница C после која следи
+    сериски број, на пример C4.</p>
+<p>Конекторите се конструирани да издражат вибрации, температурни промени, влага итн. Но тие лесно можат да се оштетат
+    со неправилно ракување. Оштетувањата се најчесто поради големам струја, влага и неправилно одспојување.</p>
+<p>Особено е важно да се користи исправен алат кога се работи со терминалите на конекторрите.</p>
+<h5 class="mt-4" id="function-description-connectors">Конектори</h5>
+<p>Конекторите се поврзуваат дирекно на електричните компоненти. Конекторите за електричните компоненети како вентили,
+    електро мотор во својот код ја немаат буквата C. нивниот код е идентичен со кодот на електричнат акомпобента, н
+    апример V117.</p>
+<h5 id="primary-locks">Примарно забравување на терминалите во конекторот</h5>
+<p>Постојат неколку различни типови на примерни забравници за терминалите за конектори. Примарниот забравник е
+    јазиче за забравување сместено на смаиот терминал. </p>
+<div class="row mb-3">
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201564.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201564.svg' %}"/></a>
+<small class="fst-italic">единечен примарен забравник</small>
+</div>
+<div class="col-xl-8">
+</div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201565.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201565.svg' %}"/></a>
+<small class="fst-italic">двоен примарен забравник</small>
+</div>
+</div>
+<h5 id="secondary-locks">Секундарно забравување на терминалите во конекторот</h5>
+<p>Постојат неколку различни типови на секундарни забравници за терминалите за конектори. </p>
+<div class="row">
+<div class="col-xl-8">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201728.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201728.svg' %}"/></a>
+<small class="fst-italic">забравување со поклопец</small>
+</div>
+<div class="col-xl-4">
+</div>
+<div class="col-xl-7">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201729.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201729.svg' %}"/></a>
+<small class="fst-italic">забравување со забравник кој поминува низ целиот конектор</small>
+</div>
+<div class="col-xl-5">
+</div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201730.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201730.svg' %}"/></a>
+<small class="fst-italic">забравување со забравник кој поминува низ целиот конектор од страна на
+            проводниците</small>
+</div>
+<div class="col-xl-8">
+</div>
+<div class="col-xl-5">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201732.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201732.svg' %}"/></a>
+<small class="fst-italic">внатрешен забравник</small>
+</div>
+</div>
+<h5 id="coding">Кодирање на конекторите</h5>
+<p>За да се обезбеди дека одреден конектор е приклучен на соодветен конектор, конекторите се кодираат така да можат да
+    се спојат само помеѓу себе.</p>
+<p>За да се обезбеди дека одреден конектор е приклучен на соодветен конектор, конекторите се кодираат така да можат да
+    се спојат само помеѓу себе.</p>
+<p>Постои механичко кодитрање а кај конекторите во боја и така наречена кодирање со боја.</p>
+<h5 id="sealing">Заптивање на конектори</h5>
+<p>Кога проводниците се изложени на влијанието од околината, на пример проводниците на моторот или рамот, се користат
+    заптивни утичници.</p>
+<div class="row">
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201733.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201733.svg' %}"/></a>
+<small class="fst-italic">заптивна утичница</small>
+</div>
+<div class="col-xl-8">
+</div>
+</div>
+<h5 id="cable-marking">Означување на кабли</h5>
+<p>На електричните шеми за PRT возилат се внесени сите кабли.</p>
+<p>Пример за означување на кабел.</p>
+<p class="ml-5">EEC261.YE-1 [P2:C6]</p>
+<p><span class="fw-bold">EES</span>: ознака на системот. Оваа е исто така означено и на самиот кабел.</p>
+<p><span class="fw-bold">261</span>: сериски број на проводникот. Оваа е исто така означено и на самиот кабел.</p>
+<p><span class="fw-bold">YE</span>: код на бојата на проводникот, во случајов жолта.</p>
+<p><span class="fw-bold">1</span>: пресек на проводникот.</p>
+<p><span class="fw-bold">[P2:C6-2]</span>: адреса кој кажува каде е приклучен другиот крај на проводникот, пин 2 на
+    конекторот C6. Како секој кабел е претставен на електричниоте шеми, адресата се означува само на многу долги
+    кабел, кои тешко се следат (не и на овој).</p>
+<p>Кодови за бои</p>
+<ul>
+<li>BK-black-crna</li>
+<li>BN-brown-кафеава</li>
+<li>BU-blue-сина</li>
+<li>GN-green-зелена</li>
+<li>GY-grey-сива</li>
+<li>OG-orange-портокалова</li>
+<li>PK-pink-розева</li>
+<li>RD-red-црвен</li>
+<li>VT-violet-виолетова</li>
+<li>BU-blue-сина</li>
+<li>WH-white-бела</li>
+<li>YE-yellow-жолта</li>
+</ul>
+<!--work description-->
+<h3 class="mt-3" id="work-description">Опис на работа</h3>
+<h5 class="mt-4" id="work-description-checks">Коонтрола на конектори и терминали</h5>
+<p class="fw-bold" id="work-description-checks-reuse">Повторна употреба</p>
+<div class="row">
+<div class="col-xl-6">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b160952.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b160952.svg' %}"/></a>
+</div>
+</div>
+<p>Кога се исклучува конектор од компонента (на пример пумпа за редуктант) секогаш треба да се провери конекторот на
+    компонентата е лабав.</p>
+<p>Внимателно да се повлече конекторот од компонентата и да се проверете дали терминалите се свиткани, 'рѓосани или
+    вовлечени.</p>
+<p class="fw-bold" id="#work-description-checks-moisture">Влага</p>
+<p>Влагата во конекторите тешко се открива, но може да предизвика дефекти во системот. Ако се открие влага, конекторот
+    треба да се исуши со контакт спреј. Алтернативно, може користи и пиштол за топол воздух поставен на најниско ниво.
+</p>
+<div class="alert alert-warning" role="alert">
+<svg class="bi bi-exclamation-circle-fill" fill="currentColor" height="48" viewbox="0 0 16 16" width="48" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path>
+</svg>
+<span class="fs-4 fw-semi-bold">Важно</span>
+<p>Да не се користи компримиран воздух за чистење на конекторите, бидејки компримитраниот воздух може да содржи
+        влага.</p>
+</div>
+<p class="fw-bold" id="work-description-checks-pins">Свиткани или деформирани терминали</p>
+<p>Ако терминалите се свиткани или деформирани треба да се заменат со нови.</p>
+<p class="fw-bold" id="work-description-checks-pins">Рѓосани терминали</p>
+<p>Ако терминалите се рѓосани треба да се заменат со нови и тоа обавезно како пар.</p>
+<p class="fw-bold" id="work-description-checks-pins">Извлечени терминали</p>
+<p>Треба да се провери дали има вовлечени терминалии во конекторот. Ако има терминалот треба да се турне назад во
+    конекторот од задната страна. Ако терминалот не се забравува, мора да се замени со нов.
+</p>
+<h5 id="work-description-crimping">Стегање на терминали</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="588 200"></a></th>
+<td>Отстранувач на изолација за кабли 0.5-4.0mm²</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b143314.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b143314.svg' %}"/></a></td>
+<td>N/A</td>
+</tr></tbody>
+</table>
+<p class="fw-bold" id="work-description-crimping-info">Стегање на кабелски терминали, општи информации</p>
+<p>Методот што Scania го користи за прицврстување на кабелските терминали на каблите се нарекува стегање (пресување).
+    Кога се стега, со клешта, клештата внимателно да се затега додека не го забрави терминалот. Потоа во терминалот се
+    вметнува проводникот, со заптивка ако е потребно.</p>
+<p>Кога се користи овој метод од особена важност е да се избере исправен терминал, заптивка и клешта за стегање.</p>
+<p>Исто така, неопходно е правилно да се постави терминалот во гнездото на назабената плочка за стегање. Ова е бидејки:
+</p>
+<ul>
+<li>Премал или преголем терминал предизвикува лош контакт, дозволува да влезе влагаили ќе остави проводникот да се
+        олабави.</li>
+<li>Неправилна заптивка е ризик од навлегување на влага.</li>
+<li>Неправилна клешта за стегање, неправилна назабена плошка или погрешно поставен терминал во
+        назабената плочка предизвикува олабавување на проводникот или кршење на терминалот.</li>
+<li>Различните назабени плошки за стегање имаат различни ознаки, на пр. A, B или C, и тоа во зависност
+        од пресекот на кабелот, кабелскиот терминал и заптивката што се користи. Наведената површина се однесува на
+        металниот дел од кабелот кој се онарекува проводник.</li>
+</ul>
+<p>Конечно, кабелот и заптивката мора да се вметнат правилно во кабелскиот терминал, бидејќи:</p>
+<ul>
+<li>Доколку голем дел од проводникот не е покриен со изолацијата или со стегата од терминалот, се зголемува ризикот
+        врската да не биде правилно заптивена.</li>
+<li>Доколку делот од проводникот кој се стега не е стегнат по целата должина, врската ќе биде послаба.</li>
+<li>Доколку има влакна од проводникот што излегуваат надвор од стегата на терминалот, постои ризик од кратки споеви
+        со
+        други кабелски терминали, а и врската ќе биде послаба.</li>
+</ul>
+<div class="row">
+<div class="col-xl-6">
+        1. Делот од проводникот кој се стега<br/>
+        2. Сигурносен прстен против извлекување<br/>
+        3. Исправно стегање на терминалот<br/>
+        4. Премал и преголем пресек на кабелот.
+    </div>
+<div class="col-xl-6">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201727.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201727.svg' %}"/></a>
+</div>
+</div>
+<h5 id="work-description-crimping-without-seal">Стегање на терминал без заптивка</h5>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се отстрани изолацијата на кабелот во должина малку поголемна од делот за стегање на терминалот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201431.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201431.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се постави терминалот во клештата за стегање.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201724.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201724.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        3. Да се стегне терминалот во позиција за поставување на кабелот.
+    </div>
+<div class="col-xl-4">
+</div>
+<hr/>
+<div class="col-xl-8">
+        4. Да се вметне кабелот во клештата за стегање така да го достигне крајот за стегање на терминалот.
+    </div>
+<div class="col-xl-4">
+</div>
+<hr/>
+<div class="col-xl-8">
+        5. Да се притисне клештата до крајната позиција и да се држи.
+    </div>
+<div class="col-xl-4">
+</div>
+<hr/>
+<div class="col-xl-8">
+        6. Ако е потребно да се исправи терминалот додека е во клештата.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202813.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202813.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        7. Да се стегне клештата додека не се ослободи. Да се извади терминалот од клештата.
+    </div>
+<div class="col-xl-4">
+</div>
+</div>
+<p class="fw-bold">Да се провери дали стегањето е исправно.</p>
+<h5 id="work-description-crimping-without-seal">Стегање на терминал без заптивка</h5>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се навлече заптивката на кабелот пред отстранување на изолацијата.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201440.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201440.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се отстрани изолацијата на кабелот во должина малку поголемна од делот за стегање на терминалот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201431.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201431.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        3. Да се повлече заптивката до крајот на изолацијата.
+    </div>
+<div class="col-xl-4">
+</div>
+<hr/>
+<div class="col-xl-8">
+        4. Да се постави терминалот во клештата за стегање.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201724.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201724.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        5. Да се стегне терминалот во позиција за поставување на кабелот.
+    </div>
+<div class="col-xl-4">
+</div>
+<hr/>
+<div class="col-xl-8">
+        6. Да се вметне кабелот во клештата за стегање така да го достигне крајот за стегање на терминалот. Да се
+        провери дека заптивката е правилно поставена во терминалот.
+    </div>
+<div class="col-xl-4">
+</div>
+<hr/>
+<div class="col-xl-8">
+        7. Да се притисне клештата до крајната позиција и да се држи.
+    </div>
+<div class="col-xl-4">
+</div>
+<hr/>
+<div class="col-xl-8">
+        8. Ако е потребно да се исправи терминалот додека е во клештата.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202813.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202813.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        9. Да се стегне клештата додека не се ослободи. Да се извади терминалот од клештата.
+    </div>
+<div class="col-xl-4">
+</div>
+</div>
+<h5 id="work-description-10-2.8mm-socket">Конектор со 10 терминали и 2.8mm рамна утичница</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 586</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b351103.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b351103.svg' %}"/></a></td>
+<td>N/A</td>
+</tr></tbody>
+</table>
+<p class="fw-bold">Поврзување</p>
+<div class="row">
+<div class="col-xl-6">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b136052.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b136052.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold">Контрола</p>
+<p>Мерењата треба да се вршат од страната на кабелот а не на челото на терминалот бидејки истиот може да се оштети.</p>
+<div class="row">
+<div class="col-xl-6">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b136053.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b136053.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold">Демонтажа</p>
+<div class="row">
+<hr/>
+<div class="col-xl-7">
+        1. Да се одбрави секундарната брава со буткање на кабелот на страна приближно 1mm.
+    </div>
+<div class="col-xl-5">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b128041.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b128041.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се одбрави примарната брава со преклопување на јазичињата на терминалот со помош на алатката <a href="">99
+            586</a>.<br/>
+        Забелешка: Алатот 99 586 е замена за алатот 588 192.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b135664.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b135664.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        3. Да се извлече терминалот со влечење на кабелот.
+    </div>
+<div class="col-xl-4">
+</div>
+</div>
+<h5 id="work-description-6-21-2.8mm-pin">Конектор со 6-21 терминали и 2.8mm рамен утикач</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 586</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b351103.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b351103.svg' %}"/></a></td>
+<td>N/A</td>
+</tr></tbody>
+</table>
+<p class="fw-bold">Поврзување</p>
+<div class="row">
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201819.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201819.svg' %}"/></a>
+</div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201822.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201822.svg' %}"/></a>
+</div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201896.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201896.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold">Демонтажа- машко</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави секундарната брава со буткање на горниот дел еден клик приближно 1mm, со употреба на пример на
+        пенкало.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201472.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201472.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се одбрави примарната брава со преклопување на јазичињата на терминалот со помош на алатката <a href="">99
+            586</a>.<br/>
+        Забелешка: Алатот 99 586 е замена за алатот 588 192.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201430.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201430.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        3. Да се извлече терминалот со влечење на кабелот.
+    </div>
+<div class="col-xl-4">
+</div>
+</div>
+<p class="fw-bold">Демонтажа- женско</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави секундарната брава со извлекување на целата брава од конекторот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201473.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201473.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се одбрави примарната брава со преклопување на јазичињата на терминалот со помош на алатката <a href="">99
+            586</a>.<br/>
+        Забелешка: Алатот 99 586 е замена за алатот 588 192.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201474.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201474.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        3. Да се извлече терминалот со влечење на кабелот.
+    </div>
+<div class="col-xl-4">
+</div>
+</div>
+<h5 id="work-description-3-2.8mm-socket">Конектор со 3 терминали и 2.8mm рамна утичница</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 586</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b351103.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b351103.svg' %}"/></a></td>
+<td>N/A</td>
+</tr></tbody>
+</table>
+<p class="fw-bold">Поврзување</p>
+<div class="row">
+<div class="col-xl-6">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b144475.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b144475.svg' %}"/></a>
+</div>
+<div class="col-xl-6">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b144474.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b144474.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold">Контрола</p>
+<p>Мерењата треба да се вршат од страната на кабелот а не на челото на терминалот бидејки истиот може да се оштети.</p>
+<div class="row">
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b144476.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b144476.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold">Демонтажа</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави секундарната брава со отварање на бравата на страна на конекторот со одвртувач.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b144477.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b144477.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се одбрави примарната брава со преклопување на јазичињата на терминалот со помош на алатката <a href="">99
+            586</a>.<br/>
+        Забелешка: Алатот 99 586 е замена за алатот 588 192.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b144478.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b144478.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        3. Да се извлече терминалот со влечење на кабелот.
+    </div>
+<div class="col-xl-4">
+</div>
+</div>
+<h5 id="work-description-4-6-0.64mm-socket">Конектор со 4 и 6 терминали и 0.64mm рамна утичница</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 510</a></th>
+<td>Адаптер</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b142481.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b142481.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+<tr>
+<th scope="row"><a href="">99 586</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b351103.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b351103.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p class="fw-bold">Контрола</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави зелената секундарна брава на следниот начин: да се притисне бравата низ отворот на горната
+        страна на конекторот и да се држи притисната.
+    </div>
+<div class="col-xl-4">
+</div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се придвижи бравата еден клик настрана со помош на мал одвртувач или алатот 99 589.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b131711.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b131711.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        3. Мерењето да се врши од страна на терминалите. Кога се мери отпорност да се користи кабелот 99 510.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b133733.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b133733.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold">Демонтажа</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави примарната брава со притискање на јазичето од страна на терминалите со помош на алатката
+        99 589. Во исто време влечејки го кабелот да се извлече терминалот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b131710.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b131710.svg' %}"/></a>
+</div>
+</div>
+<h5 id="work-description-30-40-0.64mm-pin">Конектор со 30 и 40 терминали и 0.64mm рамен утикач</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 510</a></th>
+<td>Адаптер</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b142481.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b142481.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+<tr>
+<th scope="row"><a href="">99 589</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b210805.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b210805.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p class="fw-bold">Контрола</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави секундарна брава со помош на одвртувач и да се извлече внатрешното кучиште.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b131715.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b131715.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        2. Мерењето да се врши од страна на терминалите. Кога се мери отпорност да се користи кабелот 99 510.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b131712.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b131712.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        3. Да се одбрави примарната брава со притискање на јазичето со помош на алатката 99 589 или мал одвртувач. Во
+        исто време да се извлече терминалот со влечење на кабелот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b131713.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b131713.svg' %}"/></a>
+</div>
+</div>
+<h5 id="work-description-36-1.5mm-socket">36 терминали, 1.5 рамна утичница</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 583</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b304916.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b304916.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p class="fw-bold">Поврзување</p>
+<div class="row">
+<div class="col-xl-8">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b326635.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b326635.svg' %}"/></a>
+</div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b144480.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b144480.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold">Контрола</p>
+<p>Мерењата треба да се вршат од страната на кабелот а не на челото на терминалот бидејки истиот може да се оштети.</p>
+<div class="row">
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b144481.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b144481.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold">Демонтажа</p>
+<div class="row">
+<hr/>
+<div class="col-xl-12">
+        1. Да се одбрави внатрешнат брава со внимателно прискање отпозади за да се створи притисон. Да се подигната
+        јазичиња од двете страни за да може внатрешната брава да се ослободи.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b144487.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b144487.svg' %}"/></a>
+</div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b144483.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b144483.svg' %}"/></a>
+</div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b144484.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b144484.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се одбрави секундарната брава со повлекување на внатрешниот дел од конекторот. Внатрешниот дел на
+        конекторот се состои од три поединачни конектора.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b144485.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b144485.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        3 Да се одбрави примарната со превртување на јазичињата на терминалот со помош на алатот 99 583.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b144482.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b144482.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        4 Да се извлече терминалот со повлекување на кабелот.
+    </div>
+</div>
+<!--7 терминали, 1.5 кружна утичница и утикач-->
+<h5 class="mt-4" id="work-description-7-1.5mm-socket-pin">7 терминали, 1.5 кружна утичница и утикач</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 581</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b347924.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b347924.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+<tr>
+<th scope="row"><a href="">2 267 654</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b147533.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b147533.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p class="fw-bold">Поврзување</p>
+<div class="row">
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b326604.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b326604.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold">Контрола</p>
+<p>Мерењата не треба да се вршат од страната на кабелот за да не се оштети заптивката.</p>
+<p class="fw-bold">Демонтажа</p>
+<div class="row">
+<hr/>
+<div class="col-xl-12">
+        1. Да се одбрави примарната брава со преврување на јазичињата на кружниот утикач со помош на алатката 2 0267 654
+        или 99 581, во зависност од дизајнот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b135743.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b135743.svg' %}"/></a>
+<small>Забелешка: 2 267 654 го заменува 99 582 и 588 209</small>
+</div>
+<div class="col-xl-4">
+</div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b135744.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b135744.svg' %}"/></a>
+<small>Забелешка: 99 581 го заменува 99 483</small>
+</div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се притисне алатката 2 267 654 а терминалот да се извлече со повлекувањње на кабелот..
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b131700.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b131700.svg' %}"/></a>
+</div>
+</div>
+<!--2-12 терминали, 1.6 кружна утичница и утикач-->
+<h5 class="mt-4" id="work-description-2-12-1.6mm-socket-pin">2-12 терминали, 1.6 кружна утичница и утикач</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 591</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b351105.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b351105.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p class="fw-bold">Поврзување</p>
+<div class="row">
+<div class="col-xl-3">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201972.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201972.svg' %}"/></a>
+</div>
+<div class="col-xl-3">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201992.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201992.svg' %}"/></a>
+</div>
+<div class="col-xl-3">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201988.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201988.svg' %}"/></a>
+</div>
+<div class="col-xl-3">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201996.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201996.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold mt-4">Демонтажа</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави секундарната брава со алатката 99 591 со притискање на чаурат.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201974.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201974.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        2. Алатката 99 591 да се заврти 90 степени и да остане под забравникот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201975.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201975.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-12">
+        3. Да се извлече забравникот.
+    </div>
+<hr/>
+<div class="col-xl-8">
+        4. Со помош на алатката 99 591 или мал одвртувач да се одбрави примарната брава.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201976.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201976.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-12">
+        5. Да се извлече терминалот со влечење на кабелот.
+    </div>
+</div>
+<!--5 терминали, 1.6 кружна утичница и утикач-->
+<h5 class="mt-4" id="work-description-5-1.6mm-socket-pin">5 терминали, 1.6mm кружна утичница и утикач</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">2 267 654</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b147533.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b147533.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p class="fw-bold">Поврзување</p>
+<div class="row">
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202620.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202620.svg' %}"/></a>
+</div>
+<div class="col-xl-4">
+</div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202623.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202623.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold mt-4">Демонтажа</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави примарната брава со алатката 2 267 654 со притискање на чаурат.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202622.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202622.svg' %}"/></a>
+</div>
+</div>
+<!--1-10 терминали, 2.1 кружна утичница и утикач-->
+<h5 class="mt-4" id="work-description-1-10-2.1mm-socket-pin">1-10 терминали, 2.1mm кружна утичница и утикач</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 587</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b347929.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b347929.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+<tr>
+<th scope="row"><a href="">588 194</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b143307.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b143307.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+<tr>
+<th scope="row"><a href="">2 267 654</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b147533.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b147533.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p class="fw-bold">Поврзување</p>
+<div class="row">
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202626.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202626.svg' %}"/></a>
+<small>Горен дел: бело=чаура</small><br/>
+<small>Долен дел: црно=иглица</small>
+</div>
+</div>
+<p class="fw-bold mt-4">Демонтажа на чаура</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави примарната брава со алатката 588 194 со притискање на чаурат.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202629.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202629.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold mt-4">Демонтажа на иглица</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави примарната брава со алатката 2 267 654.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202631.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202631.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold mt-4">Монтажа на чаура и иглица</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се притисне терминалот со алатката 99 587.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202642.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202642.svg' %}"/></a>
+</div>
+</div>
+<!--66 терминали, 2.5 кружна утичница и утикач-->
+<h5 class="mt-4" id="work-description-66-2.5mm-socket-pin">66 терминали, 2.5 кружна утичница и утикач</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 584</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b347926.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b347926.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p class="fw-bold">Поврзување</p>
+<div class="row">
+<div class="col-xl-6">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202292.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202292.svg' %}"/></a>
+<small>Предна страна</small>
+</div>
+<div class="col-xl-6">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202293.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202293.svg' %}"/></a>
+<small>Предна страна</small>
+</div>
+<div class="col-xl-6">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202295.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202295.svg' %}"/></a>
+<small>Страна на кабелот</small>
+</div>
+<div class="col-xl-6">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202294.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202294.svg' %}"/></a>
+<small>Страна на кабелот</small>
+</div>
+</div>
+<p class="fw-bold">Контрола</p>
+<p>Мерењата не треба да се вршат од страната на кабелот за да не се оштети заптивката.</p>
+<p class="fw-bold">Демонтажа</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави секундарната брава со лизгање на страна до еден клик, приближно 2 mm.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201781.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201781.svg' %}"/></a>
+</div>
+<div class="col-xl-8">
+        2. Да се постави алатката 99 584 над терминалот до дното на конекторот за да се одбрави примарната брава.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201782.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201782.svg' %}"/></a>
+</div>
+<div class="col-xl-12">
+        3. Да се извлече терминалот со повлекување на кабелот.
+    </div>
+</div>
+<!--4 терминали, 2.5 кружна утичница и утикач-->
+<h5 class="mt-4" id="work-description-4-2.5mm-socket-pin">4 терминали, 2.5 кружна утичница и утикач</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 584</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b347926.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b347926.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p class="fw-bold">Поврзување</p>
+<div class="row">
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201832.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201832.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold">Контрола</p>
+<p>Мерењата не треба да се вршат од страната на кабелот за да не се оштети заптивката.</p>
+<p class="fw-bold">Демонтажа</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави примарната брава со преврување на јазичињата на кружниот утикач со помош на алатката 99 584.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201835.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201835.svg' %}"/></a>
+</div>
+<div class="col-xl-8">
+</div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201836.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201836.svg' %}"/></a>
+</div>
+</div>
+<!--2-12 терминали, 3.5 кружна утичница и утикач-->
+<h5 class="mt-4" id="work-description-7-1.5mm-socket-pin">2-12 терминали, 3.5mm кружна утичница и утикач</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 584</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b347926.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b347926.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p class="fw-bold">Поврзување</p>
+<div class="row">
+<div class="col-xl-5">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202227.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202227.svg' %}"/></a>
+</div>
+<div class="col-xl-2">
+</div>
+<div class="col-xl-5">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202237.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202237.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold">Демонтажа</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави примарната брава со преврување на јазичињата на кружниот утикач со помош на алатката 99 584.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b202203.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b202203.svg' %}"/></a>
+</div>
+</div>
+<!--10 терминали, XENON-->
+<h5 class="mt-4" id="work-description-xenon">10 терминали, конектор за XENON главни светла.</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 589</a></th>
+<td>Алтка за демонтажа на терминал од конектор</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b210805.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b210805.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p class="fw-bold">Поврзување</p>
+<div class="row">
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b136076.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b136076.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold">Контрола</p>
+<p>Мерењата не треба да се вршат од страната на кабелот за да не се оштети заптивката.</p>
+<p class="fw-bold">Демонтажа</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави секундарната брава со внимателно отстранување на бравата од пониската страна на
+        конекторот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b136077.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b136077.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се одбрави примарната брава со вметнување на алатката 99 589 во конекторот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b136078.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b136078.svg' %}"/></a>
+</div>
+</div>
+<!--Терминали, Leavyseal-->
+<h5 class="mt-4" id="work-description-leavyseal">Демонтажа на конектори Leavyseal</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 583</a></th>
+<td>Алатка за вадење на терминал</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b304916.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b304916.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+<tr>
+<th scope="row"><a href="">99 586</a></th>
+<td>Алатка за вадење на терминал</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b351103.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b351103.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<div class="alert alert-warning" role="alert">
+<svg class="bi bi-exclamation-circle-fill" fill="currentColor" height="48" viewbox="0 0 16 16" width="48" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path>
+</svg>
+<span class="fs-4 fw-semi-bold">Важно</span>
+<p>Конекторите треба да се очистат пред да се пристапи кон отварање за да не доде до оштетување на забравниците
+        при
+        склопување и расклопување.</p>
+</div>
+<div class="row">
+<hr/>
+<div class="col-xl-12">
+        1. Да се отвори конекторот со вадење на поклопецот.
+    </div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се одбрави секундарната брава.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b365594.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b365594.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        3. Да се одспои конекторот.<br/>
+        Да се користи алатката 99 586 за 2.8 mm и 6.3 mm терминали.<br/>
+        Да се користи алатката 99 583 за 1.5 mm терминали.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b365595.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b365595.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        4. Да се отстрани изолацијата и да се постави заптивка.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b349649.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b349649.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        5. Да се постави и стегне со соодветна клешта.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b349650.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b349650.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        6. Да се постави терминалот во конекторот. Ако терминалот се постави исправно во конекторот ќе се чуе клик.
+        Проверката дали термоналот е забравен се врши со внимателно потегнување на кабелот. Гнездата кои не се
+        користат
+        реба да се затворат со заптивка.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b349651.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b349651.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        7. Да се забрави секундарниот забравник.<br/>
+        Да се монтир акапакот на конекторот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b349652.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b349652.svg' %}"/></a>
+</div>
+</div>
+<!--Терминали, COO, BWS-->
+<h5 class="mt-4" id="work-description-COO">Монтажа на терминали за кординатор CОО и контролна единица BWS</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">99 508</a></th>
+<td>Адаптер за тестирање</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b142477.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b142477.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+<tr>
+<th scope="row"><a href="">99 586</a></th>
+<td>Алатка за вадење на терминал</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b351103.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b351103.svg' %}"/></a></td>
+<td>N/A</td>
+</tr>
+<tr>
+<th scope="row"><a href="">99 589</a></th>
+<td>Алатка за вадење на терминал</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b210805.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b210805.svg' %}"/></a></td>
+<td>D10</td>
+</tr>
+</tbody>
+</table>
+<p class="fw-bold" id="work-description-COO-measuring">Мерење кај конекторот на контролната единица</p>
+<div class="row">
+<hr/>
+<div class="col-xl-12">
+        1. Да се одспои конекторот на контролната единица
+    </div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се користи адаптерот 99 508.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201587.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201587.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        3. Да се поврзе кабелот од контролната единица на адаптерот 99 508 и да се мери преку мерните точки на
+        адаптерот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201589.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201589.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold" id="work-description-COO-overview">Преглед на врските</p>
+<div class="row">
+<hr/>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201421.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201421.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold mt-4" id="work-description-COO-0.64">Демонтажа на терминал 0.64mm</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави секундарниот забравник со задвижување на жолтата брава од двете страни на конекторот со
+        упптреба на
+        одвртувач.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201424.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201424.svg' %}"/></a>
+</div>
+<div class="col-xl-12">
+        2. Да се извлече секундарниот забравникот од конекторот.
+    </div>
+<hr/>
+<div class="col-xl-8">
+        3. Да се одбрави примарниот забравник на терминалот со внимателно виткање на пластичното јазиче кое го
+        забравува
+        терминалот. Да се користи алатката 99 589 или мал одвртувач.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201425.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201425.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-12">
+        4. Да се извлече терминалот повлекувајки го кабелот.
+    </div>
+</div>
+<p class="fw-bold mt-4" id="work-description-COO-2.8">Демонтажа на терминал 2.8</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се одбрави секундарниот забравник со задвижување на жолтата брава од двете страни на конекторот со
+        упптреба на одвртувач.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201422.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201422.svg' %}"/></a>
+</div>
+<div class="col-xl-12">
+        2. Да се извлече секундарниот забравникот од конекторот.
+    </div>
+<hr/>
+<div class="col-xl-8">
+        3. Да се одбрави примарниот забравник на терминалот со внимателно виткање на пластичното јазиче кое го
+        забравува
+        терминалот. Да се користи алатката 99 586 или мал одвртувач.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201487.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201487.svg' %}"/></a>
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b201423.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b201423.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-12">
+        4. Да се извлече терминалот повлекувајки го кабелот.
+    </div>
+</div>
+<!--96 терминали, LCS контролна единица-->
+<h5 class="mt-5" id="work-description-96-LCS">96 терминали, LCS контролна единица</h5>
+<p class="fw-bold">Алат</p>
+<table class="table table-sm">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Опис</th>
+<th scope="col">Илустрација</th>
+<th scope="col">Алат-комплет</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="">2 308 280</a></th>
+<td>Тест кутија (2,892,510)</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b349536.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b349536.svg' %}"/></a></td>
+<td>D10</td>
+</tr>
+<tr>
+<th scope="row"><a href="">2 309 374</a></th>
+<td>Опрема за тестирањена електрични конектори</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b349892.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b349892.svg' %}"/></a></td>
+<td>D10</td>
+</tr>
+<tr>
+<th scope="row"><a href="">2 309 377</a></th>
+<td>Делови за поправка на кабли</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b349894.svg' %}"><img class="img img-thumbnail" src="{% static 'scaniaMM/images/multi/b349894.svg' %}"/></a></td>
+<td>D10</td>
+</tr>
+</tbody>
+</table>
+<p>Конекторот го поврзува кабелот од моторот до контролната единица.</p>
+<div class="row">
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b162269.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b162269.svg' %}"/></a>
+</div>
+</div>
+<p>Конекторот се состои од три дела.</p>
+<div class="row">
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b162280.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b162280.svg' %}"/></a>
+</div>
+<div class="col-xl-8">
+<ul class="list-group-numbered">
+<li>Ракавец на конекторот</li>
+<li>Конектор</li>
+<li>Забравник</li>
+</ul>
+</div>
+</div>
+<p class="fw-bold" id="work-description-96-LCS-removal">Демонтажа</p>
+<div class="alert alert-danger" role="alert">
+<svg class="bi bi-exclamation-triangle-fill" fill="currentColor" height="48" viewbox="0 0 16 16" width="48" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+</svg>
+<span class="fs-4 fw-semi-bold">Предупредување</span>
+<p>Акумулаторските батерии можат да емитираат експлозивни гасови. Кога се работи со батерии секогаш треба да се
+        вентилира просторијата за да се избегнат повреди. За да се избегне ризикот од електричен лак, прво се
+        одвојува
+        негативниот пол од батериите а последен се спојува негативниот пол.</p>
+</div>
+<div class="row">
+<hr/>
+<div class="col-xl-12">
+        1. Да се одспојат батериите
+    </div>
+<div class="col-xl-8">
+        2. Да се демонтираат држачите за кабелот на контролната единица за моторот.
+        <div class="alert alert-warning mt-3" role="alert">
+<svg class="bi bi-exclamation-circle-fill" fill="currentColor" height="48" viewbox="0 0 16 16" width="48" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path>
+</svg>
+<span class="fs-4 fw-semi-bold">Важно</span>
+<p>За да не се оштети конекторот, треба да се притисне забравникот пред да се повлече рачката за
+                обезбедување.</p>
+</div>
+</div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b160960.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b160960.svg' %}"/></a>
+</div>
+<div class="col-xl-8">
+        3. Да се демонтира конекторот со притискање на осигурачот на ракавецот (1) на конекторот и со подигање на
+        рачката за обезбедување (2).
+        <div class="alert alert-warning mt-3" role="alert">
+<svg class="bi bi-exclamation-circle-fill" fill="currentColor" height="48" viewbox="0 0 16 16" width="48" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path>
+</svg>
+<span class="fs-4 fw-semi-bold">Важно</span>
+<p>Штом конекторот е демонтиран, рачката за обезбедување не смее да се врати назад за да не се оштети
+                конекторот.</p>
+</div>
+</div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b160949.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b160949.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold" id="work-description-96-LCS-test">Контрола</p>
+<div class="alert alert-warning mt-3" role="alert">
+<svg class="bi bi-exclamation-circle-fill" fill="currentColor" height="48" viewbox="0 0 16 16" width="48" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path>
+</svg>
+<span class="fs-4 fw-semi-bold">Важно</span>
+<p>Штом конекторот е демонтиран, рачката за обезбедување не смее да се врати назад за да не се оштети
+        конекторот.
+    </p>
+</div>
+<p>Дијагностиката се прави со помош на тест кутијата 2 308 280.</p>
+<p>Сите кабли за дијагностика, алтки и терминали се наоѓаат во опремата за тестирање 2 309 374.</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се приклучи кабелскиот приклучок на тестерот (1). Рачката за обезбедување (2) да се врати назад така
+        да
+        конекторот е цврсто налегнат на тест плочата а забравникот (3) се активира.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b160950.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b160950.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-12">
+        2. Да се користи тест плочата за идентифицирање на бројот на кабелот.
+    </div>
+</div>
+<p class="fw-bold" id="work-description-96-LCS-renewing">Замена на терминал</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се пресече пластичната стега за обезбедување на кабелот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b162287.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b162287.svg' %}"/></a>
+</div>
+<div class="col-xl-8">
+        2. Да се извлече кабелскиот ракавец и кабелот со повлекување нанапред па потоа нагоре.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b162272.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b162272.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        3. Да се извлече кабелскиот ракавец со повлекување нанапред па потоа нагоре.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b162273.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b162273.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        4. Да се извлече забравникот од конекторот со помош на алатката од комплетот 2 309 374.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi//b162274.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi//b162274.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold" id="work-description-96-LCS-removing">Демонтажа на терминал</p>
+<div class="alert alert-warning mt-3" role="alert">
+<svg class="bi bi-exclamation-circle-fill" fill="currentColor" height="48" viewbox="0 0 16 16" width="48" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path>
+</svg>
+<span class="fs-4 fw-semi-bold">Важно</span>
+<p>Ако повеќе од 4 терминали се оштетени да се замени целиот кабел.
+    </p>
+</div>
+<p>Да се менува поединечно, кабел по кабел. Да се обележат каблите, ако треба повеќе кабли да се менуваат и да се
+    користи шема на поврзување на конекторот.</p>
+<div class="alert alert-warning mt-3" role="alert">
+<svg class="bi bi-exclamation-circle-fill" fill="currentColor" height="48" viewbox="0 0 16 16" width="48" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path>
+</svg>
+<span class="fs-4 fw-semi-bold">Важно</span>
+<p>Да не се притска многу терминалот кога се поставува во терминал бидејки конекторот може да се оштети.</p>
+</div>
+<div class="row">
+<hr/>
+<div class="col-xl-12">
+        1. Да се постави алатката за вадење на терминал во гнездото (1).
+    </div>
+<hr/>
+<div class="col-xl-12">
+        2. Закосената страна на алатката (2) да се постави во гнездото на терминалот.
+    </div>
+<hr/>
+<div class="col-xl-12">
+        3. Внимателно да се врти алатката (3).
+    </div>
+<hr/>
+<div class="col-xl-8">
+        4. Внимателно да се извлече кабелот од конекторот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi//b162275.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi//b162275.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-12">
+        5. Да се отсече кабел со соодветна дожина.
+        <div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b162040.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b162040.svg' %}"/></a>
+</div>
+<p>Конекторот за контролната единица на моторот користи две димензии на кабел.</p>
+<p>Кабелот со сива боја и црвени црти е за поправка на кабелот во гнездата 1-4, 25-28, 49-52 и 73-76 (1).
+            Овие
+            кабли можат да се најдат во комплетот за поправка 2 309 377.</p>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi/b162276.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi/b162276.svg' %}"/></a>
+</div>
+<p>За поправка на 20 кабли во гнездата 5-24, 29-48, 53-72, и 77-96 (2), каблите во комплетот за поправка се
+            комплетно сиви.</p>
+</div>
+<hr/>
+<div class="col-xl-8">
+        6. Да се отсече кабелот со клешта за сечење.<br/>
+        Кабелот за поправка треба да се спои на оргиналниот кабел со помош на изолиран ракавец за спојување кои се
+        во
+        комплетот за поправка.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi//b162273.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi//b162273.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-12">
+        7. Да се провери должината нан кабелот кој ќе се отсече пред да се отпочне со поправака.
+    </div>
+<hr/>
+<div class="col-xl-12">
+        8. Да се спои новиот кабел на оргиналниот кабел.
+    </div>
+<hr/>
+<div class="col-xl-8">
+        9. Да се провери дека проводникот е во ракавецот за спојување.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi//b162285.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi//b162285.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        10. Со помош на клешта за стегање да се спои кабелот за поправка со ракавецот за спојување.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi//b162291.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi//b162291.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-8">
+        11. Со помош на фен за топол воздух да се загрее спојот. <br/>
+        Изолацијата на ракавецот за спојување ќе се собере и ќе го направи спојот водо-непропустлив.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi//b162293.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi//b162293.svg' %}"/></a>
+</div>
+</div>
+<p class="fw-bold" id="work-description-96-LCS-fitting">Монтажа на кабелот</p>
+<div class="row">
+<hr/>
+<div class="col-xl-12">
+        1. Да се постави кабелот врз конекторот.
+    </div>
+<hr/>
+<div class="col-xl-12">
+        2. Да се притисне кабелот во конекторот се додека терминалоите не се спојат цврсто.
+    </div>
+<hr/>
+<div class="col-xl-12">
+        3. Да се провери дека кабелот е добро забравен со внимателно нишање накабелот.
+    </div>
+<hr/>
+<div class="col-xl-8">
+        4. Да се постави забравникот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi//b162278.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi//b162278.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-12">
+        5. Да се постави кабелот на местои да се постави ракавецот од кабелот врз конекторот.
+    </div>
+<hr/>
+<div class="col-xl-8">
+        6. Да се притисне надолу ракавецот на конекторот додека не се забрави во конекторот.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi//b162279.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi//b162279.svg' %}"/></a>
+</div>
+<hr/>
+<div class="col-xl-12">
+        7. Да се стегне и осигура кабелот со пластична стега.
+    </div>
+</div>
+<p class="fw-bold mt-4" id="work-description-96-LCS-ems">Монтажа на контролната единица за моторот</p>
+<div class="row">
+<hr/>
+<div class="col-xl-8">
+        1. Да се постави конекторот во контролната единица на моторот и рачката за забравување да се повлече наназд
+        додека не забрави.
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi//b162041.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi//b162041.svg' %}"/></a>.
+    </div>
+<hr/>
+<div class="col-xl-8">
+        2. Да се постават стегите на кабелот (момент на затегање е 8 Nm).
+    </div>
+<div class="col-xl-4">
+<a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100vh" href="{% static 'scaniaMM/images/multi//b160961.svg' %}"><img class="img img-fluid" src="{% static 'scaniaMM/images/multi//b160961.svg' %}"/></a>.
+    </div>
+<hr/>
+<div class="col-xl-12">
+        3. Да се поврзат акумулаторските батерии.
+    </div>
+<hr/>
+<div class="col-xl-12">
+        4. Да се стартува моторот и да се провери дали има некаков код на грешка.
+    </div>
+</div>
+<p>{% endblock%}</p>
+<p>{% block js %}</p>
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+</script>
+<p>{% endblock %}</p>
+</article>
+</div>
+<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Вратете се на почетокот
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="Подножје" class="md-footer__inner md-grid" hidden="">
+<a aria-label="Претходно: Поправка на кабли" class="md-footer__link md-footer__link--prev" href="../160002/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Претходно
+              </span>
+              Поправка на кабли
+            </div>
+</div>
+</a>
+<a aria-label="Следно: Перење на челните светла" class="md-footer__link md-footer__link--next" href="../../cab/185001/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Следно
+              </span>
+              Перење на челните светла
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made by Vujche
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      for Link Logistik N&amp;N
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "toc.follow", "content.tabs.link", "search.suggest", "search.highlight", "search.share", "navigation.top"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "\u041a\u043e\u043f\u0438\u0440\u0430\u043d\u043e", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u0430\u0458 \u0432\u043e \u0442\u0430\u0431\u043b\u0430\u0442\u0430", "search.config.lang": "ru", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\u041f\u0440\u0435\u0431\u0430\u0440\u0443\u0432\u0430\u045a\u0435", "search.result.more.one": "\u0423\u0448\u0442\u0435 1 \u043d\u0430 \u043e\u0432\u0430\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", "search.result.more.other": "\u0423\u0448\u0442\u0435 # \u043d\u0430 \u043e\u0432\u0430\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", "search.result.none": "\u041d\u0435\u043c\u0430 \u0441\u043e\u043e\u0434\u0432\u0435\u0442\u043d\u0438 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0438", "search.result.one": "1 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442 \u0448\u0442\u043e \u0441\u0435 \u0441\u043e\u0432\u043f\u0430\u0453\u0430", "search.result.other": "# \u0441\u043e\u043e\u0434\u0432\u0435\u0442\u043d\u0438 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0438", "search.result.placeholder": "\u041d\u0430\u043f\u0438\u0448\u0435\u0442\u0435 \u0437\u0430 \u0434\u0430 \u0437\u0430\u043f\u043e\u0447\u043d\u0435\u0442\u0435 \u0441\u043e \u043f\u0440\u0435\u0431\u0430\u0440\u0443\u0432\u0430\u045a\u0435", "search.result.term.missing": "\u041d\u0435\u0434\u043e\u0441\u0442\u0430\u0441\u0443\u0432\u0430", "select.version.title": "\u0418\u0437\u0431\u0435\u0440\u0435\u0442\u0435 \u0432\u0435\u0440\u0437\u0438\u0458\u0430"}}</script>
+<script src="../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom"});})</script></body>
+</html>

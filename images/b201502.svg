@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: PTC Arbortext IsoDraw 7.3 -->
+<svg width="100%" height="100%" viewBox="0 0 75.128 36.548"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+ fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-linecap="round" fill="none" xml:space="preserve">
+ <g id="Frame">
+  <path stroke="none" fill="#FFFFFF" d="M75.128 36.548L0.128 36.548 0.128 0 75.128 0 75.128 36.548z"/>
+ </g>
+ <g id="Colour">
+ </g>
+ <g id="Standard_x0020_layer">
+  <path stroke-width="0.5" stroke-linecap="butt" d="M0.25 18.721C0.25 18.721 12.899 18.721 16.743 18.721C20.588 18.721 26.995 17.521 34.435 12.81L33.732 12.147L33.732 11.445L33.142 11.109C25.158 16.164 19.082 16.721 16.743 16.721L0.25 16.721"/>
+  <path stroke-width="0.5" stroke-linecap="butt" d="M74.391 18.721C74.391 18.721 61.74 18.721 57.896 18.721C54.052 18.721 47.646 17.521 40.204 12.81L40.906 12.147L40.906 11.445L41.499 11.109C49.481 16.164 55.557 16.721 57.896 16.721L74.391 16.721"/>
+ </g>
+</svg>
